@@ -1,0 +1,219 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.shortcuts import render
+
+# Create your views here.
+
+from django.http import HttpResponse
+from django.http import Http404
+from django.template import loader
+from django.shortcuts import render
+
+from .models import Pictures
+
+import os,random
+from os import listdir
+from os.path import isfile, join
+import datetime
+import time
+from datetime import date, datetime
+import re
+import shutil
+
+import logging
+log=logging.getLogger(__name__)
+
+
+# Define global variables
+
+basedir="/home/pi/mypicframeapi"
+datadir=basedir+"/data"
+tmpdir=basedir+"/tmp"
+logdir=basedir+"logs"
+#picdir="/mnt/pictures/Family"
+picdir="/home/pi/Pictures"
+maxpic=10
+jpegtran='/usr/bin/jpegtran'
+
+
+def jpegtranRun(infile,outfile):
+
+    if not os.path.isfile(infile):
+        return ('Error: %s not found.' % infile)
+
+    cmd=jpegtran+' -optimize -progressive '+infile+' > '+outfile
+    log.info('Running: %s' % cmd)
+
+    try:
+        os.system(cmd)
+    except:
+        log.error('Failed, try pure copy')
+        try:
+            shutil.copy2(infile,outfile)
+        except:
+            return ('Error: Failed to run % and copy also failed.' % cmd)
+
+    if not os.path.isfile(outfile):
+        return ('Error: Ops, something went wrong. File %s not found.' % outfile)
+
+    return ('Done: file %s created' % outfile)
+
+
+def build(request):
+
+    insertList=[]
+
+    log.info("Read files from %s" % picdir)
+    if not os.path.exists(picdir):
+        log.error("Directory %s not found" % picdir)
+        raise Http404('<h1>Unable to create %s</h1>' % picdir)
+
+    for path,subdirs,files in os.walk(picdir):
+        for name in files:
+
+            if not re.search('\.jpg',name,re.I): continue
+
+            primkey=os.path.join(path,name)
+            primkey=primkey.replace("/","")
+            primkey=primkey.replace(".","")
+            primkey=primkey.replace(" ","")
+            primkey=primkey.replace("(","")
+            primkey=primkey.replace(")","")
+
+            apicdir=picdir
+            apicdir=apicdir.replace("/","")
+            primkey=primkey.replace(apicdir,"")
+            primkey=primkey.upper()
+            fullpath=os.path.join(path,name)
+
+            filename=name
+            inprimarykey=primkey
+
+            log.info('Check if %s exists' % inprimarykey)
+                
+            tpicture=Pictures.objects.filter(primarykey=inprimarykey)
+
+            if len(tpicture)==0:
+
+                log.info('%s not found in DB. Add it.' % inprimarykey)
+                picture=Pictures()
+                picture.primarykey=inprimarykey
+                picture.path=path
+                picture.filename=filename
+                picture.fullpath=fullpath
+
+                picture.save()
+
+                picid=picture.id
+                insertList.append(fullpath)
+
+                log.info("File added %s %s %s %s %s" % ( str(picid),inprimarykey,path,filename,fullpath ))
+
+            else:
+                picid=tpicture[0].id
+                log.info("File already in DB %s %s %s %s %s" % ( str(picid),inprimarykey,path,filename,fullpath)) 
+
+    context={ 'piclist': insertList, 
+              'h1': 'Build', 
+              'h2': 'Added '+str(len(insertList))+' pictures',
+              'h2_else': 'No pictures added.'
+            }
+
+    return render(request,'backend/index.html',context)
+
+
+def index(request):
+
+    piclist=Pictures.objects.all()
+
+    files=[]
+    for f in piclist:
+        pictureid=f.id
+        primarykey=f.primarykey
+        path=f.path
+        filename=f.filename
+        fullpath=f.fullpath
+
+        files.append("%s,%s,%s,%s,%s" % (str(pictureid),primarykey,path,filename,fullpath))
+
+
+    context={ 'piclist': files,
+              'h1': 'List',
+              'h2': 'Found '+str(len(files))+' pictures',
+              'h2_else': 'No pictures found.'
+            }
+    return render(request,'backend/index.html',context)
+
+
+def select(request):
+
+    log.info('Calling select route')
+
+    if not os.path.exists(tmpdir):
+        log.info('Temp dir %s not found, create it' % tmpdir)
+        try:
+            os.mkdir(tmpdir)
+        except:
+            raise Http404('<h1>Unable to create %s</h1>' % tmpdir)
+
+    for path,subdirs,files in os.walk(tmpdir):
+        if len(files)>0:
+            log.error('Temp dir %s is not empty.' % tmpdir)
+            raise Http404('<h1>Temp dir '+tmpdir+' is not empty</h1>')
+
+    numpics=len(Pictures.objects.all())
+    log.info('Found %s pictures in the DB, randomicaly select %s' % (str(numpics),str(maxpic)))
+
+    picndx=[]
+    piclist=[]
+
+    fpic=Pictures.objects.all()[:1].get()
+    first=fpic.id
+    log.info('First id in DB is %s' % str(first))
+
+    if numpics>0:
+
+        while len(picndx)<maxpic:
+
+            rnd=random.randint(first,numpics)
+            if not rnd in picndx: 
+
+                tpicture=Pictures.objects.filter(id=rnd)
+
+                if len(tpicture)!=0:
+                    pictureid=tpicture[0].id
+                    primarykey=tpicture[0].primarykey
+                    path=tpicture[0].path
+                    filename=tpicture[0].filename
+                    fullpath=tpicture[0].fullpath
+                    selectcount=tpicture[0].selectcount
+
+                    outfile=tmpdir+'/'+filename
+
+                    # Update LastUsed and SelectCount fields
+
+                    tpicture[0].last_used=datetime.now()
+                    tpicture[0].selectcount=selectcount+1
+                    tpicture[0].save()
+
+                    log.info('Run jpegtranRun to manipulate %s.' % fullpath)
+                    err=jpegtranRun(fullpath,outfile)
+
+                    if 'Error' in err:
+                        log.critical(err)
+                        raise Http404(err)
+
+                    piclist.append("%s,%s,%s,%s,%s,%s" % (str(rnd),str(pictureid),primarykey,path,filename,fullpath))
+                    picndx.append(rnd)
+    else:
+        log.info('No pictures found')
+
+    context={ 'piclist': piclist,
+              'h1': 'Select',
+              'h2': 'Selected '+str(len(piclist))+' pictures',
+              'h2_else': 'No pictures found.'
+                                                                  }
+    return render(request,'backend/index.html',context)
+
+    

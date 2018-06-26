@@ -1,0 +1,1167 @@
+2018-06-24 17:52:00,198 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /admin/build/pictures/78/change/
+2018-06-24 17:52:00,217 [Thread-1    ] [WARNI] [django.server       ]  "GET /admin/build/pictures/78/change/ HTTP/1.1" 404 3794
+2018-06-24 17:52:37,179 [Thread-3    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1716
+2018-06-24 17:55:27,781 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1716
+2018-06-24 17:57:43,846 [Thread-3    ] [INFO ] [django.server       ]  "GET /admin HTTP/1.1" 301 0
+2018-06-24 17:57:45,022 [Thread-4    ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 302 0
+2018-06-24 17:57:46,674 [Thread-5    ] [INFO ] [django.server       ]  "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1655
+2018-06-24 17:57:46,855 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2018-06-24 17:57:59,937 [Thread-7    ] [INFO ] [django.server       ]  "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2018-06-24 17:58:00,928 [Thread-8    ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 200 2784
+2018-06-24 17:58:01,385 [Thread-9    ] [INFO ] [django.server       ]  "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+2018-06-24 17:58:01,669 [Thread-10   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2018-06-24 17:58:01,679 [Thread-11   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2018-06-24 18:00:15,385 [Thread-1    ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 200 3443
+2018-06-24 18:00:20,506 [Thread-3    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/ HTTP/1.1" 200 3063
+2018-06-24 18:00:20,918 [Thread-4    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 18:00:28,748 [Thread-5    ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 200 3443
+2018-06-24 18:00:35,531 [Thread-6    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/ HTTP/1.1" 200 3063
+2018-06-24 18:00:35,979 [Thread-7    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 18:00:39,674 [Thread-8    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/add/ HTTP/1.1" 200 6999
+2018-06-24 18:00:40,018 [Thread-9    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 18:00:50,576 [Thread-10   ] [INFO ] [django.server       ]  "GET /admin/backend/ HTTP/1.1" 200 2236
+2018-06-24 18:00:54,085 [Thread-11   ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 200 3443
+2018-06-24 18:01:07,855 [Thread-12   ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1716
+2018-06-24 18:01:20,992 [Thread-13   ] [WARNI] [django.request      ]  Not Found: /index
+2018-06-24 18:01:21,010 [Thread-13   ] [WARNI] [django.server       ]  "GET /index HTTP/1.1" 404 1955
+2018-06-24 18:03:50,703 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1145 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e4feb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-24 18:04:12,447 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e74eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-24 18:04:59,121 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e48eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-24 18:06:12,939 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f21eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 18:07:44,869 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f32eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 18:08:41,376 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /index
+2018-06-24 18:08:41,394 [Thread-1    ] [WARNI] [django.server       ]  "GET /index HTTP/1.1" 404 2058
+2018-06-24 18:08:48,831 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /
+2018-06-24 18:08:48,845 [Thread-3    ] [WARNI] [django.server       ]  "GET / HTTP/1.1" 404 2025
+2018-06-24 18:09:55,222 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /
+2018-06-24 18:09:55,240 [Thread-1    ] [WARNI] [django.server       ]  "GET / HTTP/1.1" 404 2025
+2018-06-24 18:10:38,864 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1219 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ea2eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-24 18:11:21,478 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 46
+2018-06-24 18:11:42,333 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1223 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ea5eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-24 18:12:10,618 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 46
+2018-06-24 18:12:25,227 [Thread-3    ] [INFO ] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp not found, create it
+2018-06-24 18:12:25,263 [Thread-3    ] [ERROR] [django.request      ]  Internal Server Error: /select
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/mypicframeapi/backend/views.py", line 180, in select
+    rnd=random.randint(1,numpics)
+  File "/usr/lib/python2.7/random.py", line 242, in randint
+    return self.randrange(a, b+1)
+  File "/usr/lib/python2.7/random.py", line 218, in randrange
+    raise ValueError, "empty range for randrange() (%d,%d, %d)" % (istart, istop, width)
+ValueError: empty range for randrange() (1,1, 0)
+2018-06-24 18:12:28,979 [Thread-3    ] [ERROR] [django.server       ]  "GET /select HTTP/1.1" 500 79052
+2018-06-24 18:12:45,414 [Thread-4    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 46
+2018-06-24 18:17:03,968 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1331 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e9ceb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 18:17:35,304 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 45
+2018-06-24 18:17:53,351 [Thread-3    ] [INFO ] [backend.views       ]  No pictures found
+2018-06-24 18:17:53,403 [Thread-3    ] [INFO ] [django.server       ]  "GET /select HTTP/1.1" 200 47
+2018-06-24 18:18:04,743 [Thread-4    ] [INFO ] [backend.views       ]  Read files from /home/pi/Pictures
+2018-06-24 18:18:04,760 [Thread-4    ] [INFO ] [backend.views       ]  20171230_170545.jpg
+2018-06-24 18:18:04,771 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152217.jpg
+2018-06-24 18:18:04,780 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152212.jpg
+2018-06-24 18:18:04,787 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152216.jpg
+2018-06-24 18:18:04,796 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152118.jpg
+2018-06-24 18:18:04,805 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152143.jpg
+2018-06-24 18:18:04,814 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152131.jpg
+2018-06-24 18:18:04,823 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152116.jpg
+2018-06-24 18:18:04,831 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152146.jpg
+2018-06-24 18:18:04,839 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152129.jpg
+2018-06-24 18:18:04,848 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152142.jpg
+2018-06-24 18:18:04,854 [Thread-4    ] [INFO ] [backend.views       ]  20171230_152211.jpg
+2018-06-24 18:18:04,860 [Thread-4    ] [INFO ] [backend.views       ]  IMG_2010.JPG
+2018-06-24 18:18:04,872 [Thread-4    ] [INFO ] [backend.views       ]  Scan222.jpg
+2018-06-24 18:18:04,878 [Thread-4    ] [INFO ] [backend.views       ]  Scan228.jpg
+2018-06-24 18:18:04,884 [Thread-4    ] [INFO ] [backend.views       ]  Scan219.jpg
+2018-06-24 18:18:04,891 [Thread-4    ] [INFO ] [backend.views       ]  Scan223.jpg
+2018-06-24 18:18:04,898 [Thread-4    ] [INFO ] [backend.views       ]  Scan218.jpg
+2018-06-24 18:18:04,904 [Thread-4    ] [INFO ] [backend.views       ]  Scan225.jpg
+2018-06-24 18:18:04,910 [Thread-4    ] [INFO ] [backend.views       ]  Scan227.jpg
+2018-06-24 18:18:04,916 [Thread-4    ] [INFO ] [backend.views       ]  Scan226.jpg
+2018-06-24 18:18:04,922 [Thread-4    ] [INFO ] [backend.views       ]  Scan221.jpg
+2018-06-24 18:18:04,929 [Thread-4    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:18:04,934 [Thread-4    ] [INFO ] [backend.views       ]  Scan224.jpg
+2018-06-24 18:18:04,940 [Thread-4    ] [INFO ] [backend.views       ]  Scan220.jpg
+2018-06-24 18:18:04,951 [Thread-4    ] [INFO ] [backend.views       ]  pic79562.jpg
+2018-06-24 18:18:04,957 [Thread-4    ] [INFO ] [backend.views       ]  ##picat
+2018-06-24 18:18:04,962 [Thread-4    ] [INFO ] [backend.views       ]  pic42215.jpg
+2018-06-24 18:18:04,969 [Thread-4    ] [INFO ] [backend.views       ]  pic70967.jpg
+2018-06-24 18:18:04,975 [Thread-4    ] [INFO ] [backend.views       ]  pic14792.jpg
+2018-06-24 18:18:04,981 [Thread-4    ] [INFO ] [backend.views       ]  pic20485.jpg
+2018-06-24 18:18:04,988 [Thread-4    ] [INFO ] [backend.views       ]  pic25679.jpg
+2018-06-24 18:18:04,994 [Thread-4    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:18:04,999 [Thread-4    ] [INFO ] [backend.views       ]  pic28837.jpg
+2018-06-24 18:18:05,006 [Thread-4    ] [INFO ] [backend.views       ]  pic19622.jpg
+2018-06-24 18:18:05,022 [Thread-4    ] [INFO ] [backend.views       ]  huummm1.jpg
+2018-06-24 18:18:05,028 [Thread-4    ] [INFO ] [backend.views       ]  crisleo01.jpg
+2018-06-24 18:18:05,034 [Thread-4    ] [INFO ] [backend.views       ]  huummm3.jpg
+2018-06-24 18:18:05,040 [Thread-4    ] [INFO ] [backend.views       ]  ge02.jpg
+2018-06-24 18:18:05,046 [Thread-4    ] [INFO ] [backend.views       ]  crisleo02.jpg
+2018-06-24 18:18:05,052 [Thread-4    ] [INFO ] [backend.views       ]  bonitao.jpg
+2018-06-24 18:18:05,058 [Thread-4    ] [INFO ] [backend.views       ]  huumm2.jpg
+2018-06-24 18:18:05,064 [Thread-4    ] [INFO ] [backend.views       ]  cris02.jpg
+2018-06-24 18:18:05,071 [Thread-4    ] [INFO ] [backend.views       ]  neve004.jpg
+2018-06-24 18:18:05,077 [Thread-4    ] [INFO ] [backend.views       ]  pic94314.jpg
+2018-06-24 18:18:05,083 [Thread-4    ] [INFO ] [backend.views       ]  pic68229.jpg
+2018-06-24 18:18:05,089 [Thread-4    ] [INFO ] [backend.views       ]  trickortreat01.jpg
+2018-06-24 18:18:05,095 [Thread-4    ] [INFO ] [backend.views       ]  plazadonwtonw02.jpg
+2018-06-24 18:18:05,101 [Thread-4    ] [INFO ] [backend.views       ]  ge01.jpg
+2018-06-24 18:18:05,107 [Thread-4    ] [INFO ] [backend.views       ]  thanksgiving01.jpg
+2018-06-24 18:18:05,113 [Thread-4    ] [INFO ] [backend.views       ]  plazadowntonw01.jpg
+2018-06-24 18:18:05,120 [Thread-4    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:18:05,129 [Thread-4    ] [INFO ] [backend.views       ]  thanksgiving02.jpg
+2018-06-24 18:18:05,137 [Thread-4    ] [INFO ] [backend.views       ]  thanksgiving04.jpg
+2018-06-24 18:18:05,144 [Thread-4    ] [INFO ] [backend.views       ]  trickortreat03.jpg
+2018-06-24 18:18:05,153 [Thread-4    ] [INFO ] [backend.views       ]  boneco_de_neve.jpg
+2018-06-24 18:18:05,161 [Thread-4    ] [INFO ] [backend.views       ]  thanksgiving03.jpg
+2018-06-24 18:18:05,168 [Thread-4    ] [INFO ] [backend.views       ]  ge03.jpg
+2018-06-24 18:18:05,176 [Thread-4    ] [INFO ] [backend.views       ]  bananadepijama.jpg
+2018-06-24 18:18:05,183 [Thread-4    ] [INFO ] [backend.views       ]  neve006.jpg
+2018-06-24 18:18:05,190 [Thread-4    ] [INFO ] [backend.views       ]  thanksgiving05.jpg
+2018-06-24 18:18:05,198 [Thread-4    ] [INFO ] [backend.views       ]  neve005.jpg
+2018-06-24 18:18:05,210 [Thread-4    ] [INFO ] [backend.views       ]  Scan217.jpg
+2018-06-24 18:18:05,218 [Thread-4    ] [INFO ] [backend.views       ]  Scan211.jpg
+2018-06-24 18:18:05,226 [Thread-4    ] [INFO ] [backend.views       ]  Scan216.jpg
+2018-06-24 18:18:05,235 [Thread-4    ] [INFO ] [backend.views       ]  Scan215.jpg
+2018-06-24 18:18:05,242 [Thread-4    ] [INFO ] [backend.views       ]  Scan213.jpg
+2018-06-24 18:18:05,251 [Thread-4    ] [INFO ] [backend.views       ]  Scan212.jpg
+2018-06-24 18:18:05,258 [Thread-4    ] [INFO ] [backend.views       ]  Scan210.jpg
+2018-06-24 18:18:05,266 [Thread-4    ] [INFO ] [backend.views       ]  Scan209.jpg
+2018-06-24 18:18:05,272 [Thread-4    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:18:05,280 [Thread-4    ] [INFO ] [backend.views       ]  Scan214.jpg
+2018-06-24 18:18:05,288 [Thread-4    ] [INFO ] [backend.views       ]  Scan208.jpg
+2018-06-24 18:18:05,303 [Thread-4    ] [INFO ] [backend.views       ]  pavao01.jpg
+2018-06-24 18:18:05,310 [Thread-4    ] [INFO ] [backend.views       ]  lanch.jpg
+2018-06-24 18:18:05,318 [Thread-4    ] [INFO ] [backend.views       ]  pavao02.jpg
+2018-06-24 18:18:05,325 [Thread-4    ] [INFO ] [backend.views       ]  foles.jpg
+2018-06-24 18:18:05,332 [Thread-4    ] [INFO ] [backend.views       ]  readme.txt
+2018-06-24 18:18:05,339 [Thread-4    ] [INFO ] [backend.views       ]  bicha.jpg
+2018-06-24 18:18:05,346 [Thread-4    ] [INFO ] [backend.views       ]  churrasco.jpg
+2018-06-24 18:18:05,355 [Thread-4    ] [INFO ] [backend.views       ]  ##picat
+2018-06-24 18:18:05,362 [Thread-4    ] [INFO ] [backend.views       ]  cabras.jpg
+2018-06-24 18:18:05,369 [Thread-4    ] [INFO ] [backend.views       ]  mendigos.jpg
+2018-06-24 18:18:05,377 [Thread-4    ] [INFO ] [backend.views       ]  citara.jpg
+2018-06-24 18:18:05,385 [Thread-4    ] [INFO ] [backend.views       ]  motoqueira.jpg
+2018-06-24 18:18:05,392 [Thread-4    ] [INFO ] [backend.views       ]  mascara.jpg
+2018-06-24 18:18:05,399 [Thread-4    ] [INFO ] [backend.views       ]  torneio.jpg
+2018-06-24 18:18:05,407 [Thread-4    ] [INFO ] [backend.views       ]  Thumbs.db
+2018-06-24 18:18:05,413 [Thread-4    ] [INFO ] [backend.views       ]  desfile.jpg
+2018-06-24 18:18:05,420 [Thread-4    ] [INFO ] [backend.views       ]  leocris.jpg
+2018-06-24 18:18:05,427 [Thread-4    ] [INFO ] [backend.views       ]  louca.jpg
+2018-06-24 18:18:05,436 [Thread-4    ] [INFO ] [backend.views       ]  figura.jpg
+2018-06-24 18:18:05,446 [Thread-4    ] [INFO ] [backend.views       ]  mama_002.jpg
+2018-06-24 18:18:05,454 [Thread-4    ] [INFO ] [backend.views       ]  mama_004.jpg
+2018-06-24 18:18:05,461 [Thread-4    ] [INFO ] [backend.views       ]  mama_003.jpg
+2018-06-24 18:18:05,469 [Thread-4    ] [INFO ] [backend.views       ]  mama_005.jpg
+2018-06-24 18:18:05,476 [Thread-4    ] [INFO ] [backend.views       ]  mama_006.jpg
+2018-06-24 18:18:05,484 [Thread-4    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:18:05,491 [Thread-4    ] [INFO ] [backend.views       ]  mama_001.jpg
+2018-06-24 18:18:05,561 [Thread-4    ] [ERROR] [django.request      ]  Internal Server Error: /build
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/mypicframeapi/backend/views.py", line 115, in build
+    picture.save()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1111, in execute_sql
+    for sql, params in self.as_sql():
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1064, in as_sql
+    for obj in self.query.objs
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1003, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 770, in get_db_prep_save
+    prepared=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 1459, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 1438, in get_prep_value
+    value = super(DateTimeField, self).get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 1296, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 1423, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format."]
+2018-06-24 18:18:11,356 [Thread-4    ] [ERROR] [django.server       ]  "GET /build HTTP/1.1" 500 140822
+2018-06-24 18:24:02,851 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/models.py' of this watch <Watch wd=336 path=/home/pi/mypicframeapi/backend/models.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ef8eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 18:28:07,079 [Thread-1    ] [INFO ] [backend.views       ]  Read files from /home/pi/Pictures
+2018-06-24 18:28:07,093 [Thread-1    ] [INFO ] [backend.views       ]  20171230_170545.jpg
+2018-06-24 18:28:07,101 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152217.jpg
+2018-06-24 18:28:07,108 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152212.jpg
+2018-06-24 18:28:07,115 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152216.jpg
+2018-06-24 18:28:07,123 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152118.jpg
+2018-06-24 18:28:07,130 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152143.jpg
+2018-06-24 18:28:07,136 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152131.jpg
+2018-06-24 18:28:07,143 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152116.jpg
+2018-06-24 18:28:07,151 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152146.jpg
+2018-06-24 18:28:07,157 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152129.jpg
+2018-06-24 18:28:07,164 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152142.jpg
+2018-06-24 18:28:07,172 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152211.jpg
+2018-06-24 18:28:07,179 [Thread-1    ] [INFO ] [backend.views       ]  IMG_2010.JPG
+2018-06-24 18:28:07,192 [Thread-1    ] [INFO ] [backend.views       ]  Scan222.jpg
+2018-06-24 18:28:07,198 [Thread-1    ] [INFO ] [backend.views       ]  Scan228.jpg
+2018-06-24 18:28:07,205 [Thread-1    ] [INFO ] [backend.views       ]  Scan219.jpg
+2018-06-24 18:28:07,212 [Thread-1    ] [INFO ] [backend.views       ]  Scan223.jpg
+2018-06-24 18:28:07,219 [Thread-1    ] [INFO ] [backend.views       ]  Scan218.jpg
+2018-06-24 18:28:07,227 [Thread-1    ] [INFO ] [backend.views       ]  Scan225.jpg
+2018-06-24 18:28:07,233 [Thread-1    ] [INFO ] [backend.views       ]  Scan227.jpg
+2018-06-24 18:28:07,241 [Thread-1    ] [INFO ] [backend.views       ]  Scan226.jpg
+2018-06-24 18:28:07,248 [Thread-1    ] [INFO ] [backend.views       ]  Scan221.jpg
+2018-06-24 18:28:07,255 [Thread-1    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:28:07,262 [Thread-1    ] [INFO ] [backend.views       ]  Scan224.jpg
+2018-06-24 18:28:07,268 [Thread-1    ] [INFO ] [backend.views       ]  Scan220.jpg
+2018-06-24 18:28:07,280 [Thread-1    ] [INFO ] [backend.views       ]  pic79562.jpg
+2018-06-24 18:28:07,287 [Thread-1    ] [INFO ] [backend.views       ]  ##picat
+2018-06-24 18:28:07,293 [Thread-1    ] [INFO ] [backend.views       ]  pic42215.jpg
+2018-06-24 18:28:07,300 [Thread-1    ] [INFO ] [backend.views       ]  pic70967.jpg
+2018-06-24 18:28:07,307 [Thread-1    ] [INFO ] [backend.views       ]  pic14792.jpg
+2018-06-24 18:28:07,315 [Thread-1    ] [INFO ] [backend.views       ]  pic20485.jpg
+2018-06-24 18:28:07,321 [Thread-1    ] [INFO ] [backend.views       ]  pic25679.jpg
+2018-06-24 18:28:07,328 [Thread-1    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:28:07,334 [Thread-1    ] [INFO ] [backend.views       ]  pic28837.jpg
+2018-06-24 18:28:07,341 [Thread-1    ] [INFO ] [backend.views       ]  pic19622.jpg
+2018-06-24 18:28:07,358 [Thread-1    ] [INFO ] [backend.views       ]  huummm1.jpg
+2018-06-24 18:28:07,365 [Thread-1    ] [INFO ] [backend.views       ]  crisleo01.jpg
+2018-06-24 18:28:07,371 [Thread-1    ] [INFO ] [backend.views       ]  huummm3.jpg
+2018-06-24 18:28:07,379 [Thread-1    ] [INFO ] [backend.views       ]  ge02.jpg
+2018-06-24 18:28:07,386 [Thread-1    ] [INFO ] [backend.views       ]  crisleo02.jpg
+2018-06-24 18:28:07,392 [Thread-1    ] [INFO ] [backend.views       ]  bonitao.jpg
+2018-06-24 18:28:07,399 [Thread-1    ] [INFO ] [backend.views       ]  huumm2.jpg
+2018-06-24 18:28:07,405 [Thread-1    ] [INFO ] [backend.views       ]  cris02.jpg
+2018-06-24 18:28:07,412 [Thread-1    ] [INFO ] [backend.views       ]  neve004.jpg
+2018-06-24 18:28:07,419 [Thread-1    ] [INFO ] [backend.views       ]  pic94314.jpg
+2018-06-24 18:28:07,426 [Thread-1    ] [INFO ] [backend.views       ]  pic68229.jpg
+2018-06-24 18:28:07,434 [Thread-1    ] [INFO ] [backend.views       ]  trickortreat01.jpg
+2018-06-24 18:28:07,440 [Thread-1    ] [INFO ] [backend.views       ]  plazadonwtonw02.jpg
+2018-06-24 18:28:07,447 [Thread-1    ] [INFO ] [backend.views       ]  ge01.jpg
+2018-06-24 18:28:07,455 [Thread-1    ] [INFO ] [backend.views       ]  thanksgiving01.jpg
+2018-06-24 18:28:07,461 [Thread-1    ] [INFO ] [backend.views       ]  plazadowntonw01.jpg
+2018-06-24 18:28:07,469 [Thread-1    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:28:07,476 [Thread-1    ] [INFO ] [backend.views       ]  thanksgiving02.jpg
+2018-06-24 18:28:07,483 [Thread-1    ] [INFO ] [backend.views       ]  thanksgiving04.jpg
+2018-06-24 18:28:07,491 [Thread-1    ] [INFO ] [backend.views       ]  trickortreat03.jpg
+2018-06-24 18:28:07,497 [Thread-1    ] [INFO ] [backend.views       ]  boneco_de_neve.jpg
+2018-06-24 18:28:07,505 [Thread-1    ] [INFO ] [backend.views       ]  thanksgiving03.jpg
+2018-06-24 18:28:07,511 [Thread-1    ] [INFO ] [backend.views       ]  ge03.jpg
+2018-06-24 18:28:07,519 [Thread-1    ] [INFO ] [backend.views       ]  bananadepijama.jpg
+2018-06-24 18:28:07,526 [Thread-1    ] [INFO ] [backend.views       ]  neve006.jpg
+2018-06-24 18:28:07,533 [Thread-1    ] [INFO ] [backend.views       ]  thanksgiving05.jpg
+2018-06-24 18:28:07,539 [Thread-1    ] [INFO ] [backend.views       ]  neve005.jpg
+2018-06-24 18:28:07,552 [Thread-1    ] [INFO ] [backend.views       ]  Scan217.jpg
+2018-06-24 18:28:07,558 [Thread-1    ] [INFO ] [backend.views       ]  Scan211.jpg
+2018-06-24 18:28:07,565 [Thread-1    ] [INFO ] [backend.views       ]  Scan216.jpg
+2018-06-24 18:28:07,573 [Thread-1    ] [INFO ] [backend.views       ]  Scan215.jpg
+2018-06-24 18:28:07,580 [Thread-1    ] [INFO ] [backend.views       ]  Scan213.jpg
+2018-06-24 18:28:07,587 [Thread-1    ] [INFO ] [backend.views       ]  Scan212.jpg
+2018-06-24 18:28:07,594 [Thread-1    ] [INFO ] [backend.views       ]  Scan210.jpg
+2018-06-24 18:28:07,601 [Thread-1    ] [INFO ] [backend.views       ]  Scan209.jpg
+2018-06-24 18:28:07,609 [Thread-1    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:28:07,615 [Thread-1    ] [INFO ] [backend.views       ]  Scan214.jpg
+2018-06-24 18:28:07,621 [Thread-1    ] [INFO ] [backend.views       ]  Scan208.jpg
+2018-06-24 18:28:07,635 [Thread-1    ] [INFO ] [backend.views       ]  pavao01.jpg
+2018-06-24 18:28:07,642 [Thread-1    ] [INFO ] [backend.views       ]  lanch.jpg
+2018-06-24 18:28:07,648 [Thread-1    ] [INFO ] [backend.views       ]  pavao02.jpg
+2018-06-24 18:28:07,656 [Thread-1    ] [INFO ] [backend.views       ]  foles.jpg
+2018-06-24 18:28:07,663 [Thread-1    ] [INFO ] [backend.views       ]  readme.txt
+2018-06-24 18:28:07,669 [Thread-1    ] [INFO ] [backend.views       ]  bicha.jpg
+2018-06-24 18:28:07,677 [Thread-1    ] [INFO ] [backend.views       ]  churrasco.jpg
+2018-06-24 18:28:07,684 [Thread-1    ] [INFO ] [backend.views       ]  ##picat
+2018-06-24 18:28:07,690 [Thread-1    ] [INFO ] [backend.views       ]  cabras.jpg
+2018-06-24 18:28:07,697 [Thread-1    ] [INFO ] [backend.views       ]  mendigos.jpg
+2018-06-24 18:28:07,704 [Thread-1    ] [INFO ] [backend.views       ]  citara.jpg
+2018-06-24 18:28:07,710 [Thread-1    ] [INFO ] [backend.views       ]  motoqueira.jpg
+2018-06-24 18:28:07,717 [Thread-1    ] [INFO ] [backend.views       ]  mascara.jpg
+2018-06-24 18:28:07,724 [Thread-1    ] [INFO ] [backend.views       ]  torneio.jpg
+2018-06-24 18:28:07,730 [Thread-1    ] [INFO ] [backend.views       ]  Thumbs.db
+2018-06-24 18:28:07,737 [Thread-1    ] [INFO ] [backend.views       ]  desfile.jpg
+2018-06-24 18:28:07,744 [Thread-1    ] [INFO ] [backend.views       ]  leocris.jpg
+2018-06-24 18:28:07,751 [Thread-1    ] [INFO ] [backend.views       ]  louca.jpg
+2018-06-24 18:28:07,758 [Thread-1    ] [INFO ] [backend.views       ]  figura.jpg
+2018-06-24 18:28:07,769 [Thread-1    ] [INFO ] [backend.views       ]  mama_002.jpg
+2018-06-24 18:28:07,776 [Thread-1    ] [INFO ] [backend.views       ]  mama_004.jpg
+2018-06-24 18:28:07,783 [Thread-1    ] [INFO ] [backend.views       ]  mama_003.jpg
+2018-06-24 18:28:07,791 [Thread-1    ] [INFO ] [backend.views       ]  mama_005.jpg
+2018-06-24 18:28:07,798 [Thread-1    ] [INFO ] [backend.views       ]  mama_006.jpg
+2018-06-24 18:28:07,805 [Thread-1    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 18:28:07,811 [Thread-1    ] [INFO ] [backend.views       ]  mama_001.jpg
+2018-06-24 18:28:08,213 [Thread-1    ] [INFO ] [backend.views       ]  File added 1 20171230_170545JPG /home/pi/Pictures 20171230_170545.jpg /home/pi/Pictures/20171230_170545.jpg
+2018-06-24 18:28:08,294 [Thread-1    ] [INFO ] [backend.views       ]  File added 2 20171230_152217JPG /home/pi/Pictures 20171230_152217.jpg /home/pi/Pictures/20171230_152217.jpg
+2018-06-24 18:28:08,627 [Thread-1    ] [INFO ] [backend.views       ]  File added 3 20171230_152212JPG /home/pi/Pictures 20171230_152212.jpg /home/pi/Pictures/20171230_152212.jpg
+2018-06-24 18:28:08,723 [Thread-1    ] [INFO ] [backend.views       ]  File added 4 20171230_152216JPG /home/pi/Pictures 20171230_152216.jpg /home/pi/Pictures/20171230_152216.jpg
+2018-06-24 18:28:08,805 [Thread-1    ] [INFO ] [backend.views       ]  File added 5 20171230_152118JPG /home/pi/Pictures 20171230_152118.jpg /home/pi/Pictures/20171230_152118.jpg
+2018-06-24 18:28:08,894 [Thread-1    ] [INFO ] [backend.views       ]  File added 6 20171230_152143JPG /home/pi/Pictures 20171230_152143.jpg /home/pi/Pictures/20171230_152143.jpg
+2018-06-24 18:28:08,976 [Thread-1    ] [INFO ] [backend.views       ]  File added 7 20171230_152131JPG /home/pi/Pictures 20171230_152131.jpg /home/pi/Pictures/20171230_152131.jpg
+2018-06-24 18:28:09,060 [Thread-1    ] [INFO ] [backend.views       ]  File added 8 20171230_152116JPG /home/pi/Pictures 20171230_152116.jpg /home/pi/Pictures/20171230_152116.jpg
+2018-06-24 18:28:09,161 [Thread-1    ] [INFO ] [backend.views       ]  File added 9 20171230_152146JPG /home/pi/Pictures 20171230_152146.jpg /home/pi/Pictures/20171230_152146.jpg
+2018-06-24 18:28:09,242 [Thread-1    ] [INFO ] [backend.views       ]  File added 10 20171230_152129JPG /home/pi/Pictures 20171230_152129.jpg /home/pi/Pictures/20171230_152129.jpg
+2018-06-24 18:28:09,325 [Thread-1    ] [INFO ] [backend.views       ]  File added 11 20171230_152142JPG /home/pi/Pictures 20171230_152142.jpg /home/pi/Pictures/20171230_152142.jpg
+2018-06-24 18:28:09,408 [Thread-1    ] [INFO ] [backend.views       ]  File added 12 20171230_152211JPG /home/pi/Pictures 20171230_152211.jpg /home/pi/Pictures/20171230_152211.jpg
+2018-06-24 18:28:09,488 [Thread-1    ] [INFO ] [backend.views       ]  File added 13 IMG_2010JPG /home/pi/Pictures IMG_2010.JPG /home/pi/Pictures/IMG_2010.JPG
+2018-06-24 18:28:09,576 [Thread-1    ] [INFO ] [backend.views       ]  File added 14 1998_10_XX_SACRAMENTOSCAN222JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan222.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan222.jpg
+2018-06-24 18:28:09,660 [Thread-1    ] [INFO ] [backend.views       ]  File added 15 1998_10_XX_SACRAMENTOSCAN228JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan228.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan228.jpg
+2018-06-24 18:28:09,743 [Thread-1    ] [INFO ] [backend.views       ]  File added 16 1998_10_XX_SACRAMENTOSCAN219JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan219.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan219.jpg
+2018-06-24 18:28:09,826 [Thread-1    ] [INFO ] [backend.views       ]  File added 17 1998_10_XX_SACRAMENTOSCAN223JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan223.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan223.jpg
+2018-06-24 18:28:09,928 [Thread-1    ] [INFO ] [backend.views       ]  File added 18 1998_10_XX_SACRAMENTOSCAN218JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan218.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan218.jpg
+2018-06-24 18:28:10,034 [Thread-1    ] [INFO ] [backend.views       ]  File added 19 1998_10_XX_SACRAMENTOSCAN225JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan225.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan225.jpg
+2018-06-24 18:28:10,162 [Thread-1    ] [INFO ] [backend.views       ]  File added 20 1998_10_XX_SACRAMENTOSCAN227JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan227.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan227.jpg
+2018-06-24 18:28:10,255 [Thread-1    ] [INFO ] [backend.views       ]  File added 21 1998_10_XX_SACRAMENTOSCAN226JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan226.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan226.jpg
+2018-06-24 18:28:10,338 [Thread-1    ] [INFO ] [backend.views       ]  File added 22 1998_10_XX_SACRAMENTOSCAN221JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan221.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan221.jpg
+2018-06-24 18:28:10,421 [Thread-1    ] [INFO ] [backend.views       ]  File added 23 1998_10_XX_SACRAMENTOSCAN224JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan224.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan224.jpg
+2018-06-24 18:28:10,522 [Thread-1    ] [INFO ] [backend.views       ]  File added 24 1998_10_XX_SACRAMENTOSCAN220JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan220.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan220.jpg
+2018-06-24 18:28:10,628 [Thread-1    ] [INFO ] [backend.views       ]  File added 25 2000_05_28_HOMEPIC79562JPG /home/pi/Pictures/2000_05_28_Home pic79562.jpg /home/pi/Pictures/2000_05_28_Home/pic79562.jpg
+2018-06-24 18:28:10,704 [Thread-1    ] [INFO ] [backend.views       ]  File added 26 2000_05_28_HOMEPIC42215JPG /home/pi/Pictures/2000_05_28_Home pic42215.jpg /home/pi/Pictures/2000_05_28_Home/pic42215.jpg
+2018-06-24 18:28:10,779 [Thread-1    ] [INFO ] [backend.views       ]  File added 27 2000_05_28_HOMEPIC70967JPG /home/pi/Pictures/2000_05_28_Home pic70967.jpg /home/pi/Pictures/2000_05_28_Home/pic70967.jpg
+2018-06-24 18:28:10,887 [Thread-1    ] [INFO ] [backend.views       ]  File added 28 2000_05_28_HOMEPIC14792JPG /home/pi/Pictures/2000_05_28_Home pic14792.jpg /home/pi/Pictures/2000_05_28_Home/pic14792.jpg
+2018-06-24 18:28:10,962 [Thread-1    ] [INFO ] [backend.views       ]  File added 29 2000_05_28_HOMEPIC20485JPG /home/pi/Pictures/2000_05_28_Home pic20485.jpg /home/pi/Pictures/2000_05_28_Home/pic20485.jpg
+2018-06-24 18:28:11,040 [Thread-1    ] [INFO ] [backend.views       ]  File added 30 2000_05_28_HOMEPIC25679JPG /home/pi/Pictures/2000_05_28_Home pic25679.jpg /home/pi/Pictures/2000_05_28_Home/pic25679.jpg
+2018-06-24 18:28:11,115 [Thread-1    ] [INFO ] [backend.views       ]  File added 31 2000_05_28_HOMEPIC28837JPG /home/pi/Pictures/2000_05_28_Home pic28837.jpg /home/pi/Pictures/2000_05_28_Home/pic28837.jpg
+2018-06-24 18:28:11,190 [Thread-1    ] [INFO ] [backend.views       ]  File added 32 2000_05_28_HOMEPIC19622JPG /home/pi/Pictures/2000_05_28_Home pic19622.jpg /home/pi/Pictures/2000_05_28_Home/pic19622.jpg
+2018-06-24 18:28:11,721 [Thread-1    ] [INFO ] [backend.views       ]  File added 33 1998_11_31_HOMEHUUMMM1JPG /home/pi/Pictures/1998_11_31_Home huummm1.jpg /home/pi/Pictures/1998_11_31_Home/huummm1.jpg
+2018-06-24 18:28:11,853 [Thread-1    ] [INFO ] [backend.views       ]  File added 34 1998_11_31_HOMECRISLEO01JPG /home/pi/Pictures/1998_11_31_Home crisleo01.jpg /home/pi/Pictures/1998_11_31_Home/crisleo01.jpg
+2018-06-24 18:28:11,949 [Thread-1    ] [INFO ] [backend.views       ]  File added 35 1998_11_31_HOMEHUUMMM3JPG /home/pi/Pictures/1998_11_31_Home huummm3.jpg /home/pi/Pictures/1998_11_31_Home/huummm3.jpg
+2018-06-24 18:28:12,032 [Thread-1    ] [INFO ] [backend.views       ]  File added 36 1998_11_31_HOMEGE02JPG /home/pi/Pictures/1998_11_31_Home ge02.jpg /home/pi/Pictures/1998_11_31_Home/ge02.jpg
+2018-06-24 18:28:12,131 [Thread-1    ] [INFO ] [backend.views       ]  File added 37 1998_11_31_HOMECRISLEO02JPG /home/pi/Pictures/1998_11_31_Home crisleo02.jpg /home/pi/Pictures/1998_11_31_Home/crisleo02.jpg
+2018-06-24 18:28:12,214 [Thread-1    ] [INFO ] [backend.views       ]  File added 38 1998_11_31_HOMEBONITAOJPG /home/pi/Pictures/1998_11_31_Home bonitao.jpg /home/pi/Pictures/1998_11_31_Home/bonitao.jpg
+2018-06-24 18:28:12,295 [Thread-1    ] [INFO ] [backend.views       ]  File added 39 1998_11_31_HOMEHUUMM2JPG /home/pi/Pictures/1998_11_31_Home huumm2.jpg /home/pi/Pictures/1998_11_31_Home/huumm2.jpg
+2018-06-24 18:28:12,402 [Thread-1    ] [INFO ] [backend.views       ]  File added 40 1998_11_31_HOMECRIS02JPG /home/pi/Pictures/1998_11_31_Home cris02.jpg /home/pi/Pictures/1998_11_31_Home/cris02.jpg
+2018-06-24 18:28:12,485 [Thread-1    ] [INFO ] [backend.views       ]  File added 41 1998_11_31_HOMENEVE004JPG /home/pi/Pictures/1998_11_31_Home neve004.jpg /home/pi/Pictures/1998_11_31_Home/neve004.jpg
+2018-06-24 18:28:12,568 [Thread-1    ] [INFO ] [backend.views       ]  File added 42 1998_11_31_HOMEPIC94314JPG /home/pi/Pictures/1998_11_31_Home pic94314.jpg /home/pi/Pictures/1998_11_31_Home/pic94314.jpg
+2018-06-24 18:28:12,651 [Thread-1    ] [INFO ] [backend.views       ]  File added 43 1998_11_31_HOMEPIC68229JPG /home/pi/Pictures/1998_11_31_Home pic68229.jpg /home/pi/Pictures/1998_11_31_Home/pic68229.jpg
+2018-06-24 18:28:12,736 [Thread-1    ] [INFO ] [backend.views       ]  File added 44 1998_11_31_HOMETRICKORTREAT01JPG /home/pi/Pictures/1998_11_31_Home trickortreat01.jpg /home/pi/Pictures/1998_11_31_Home/trickortreat01.jpg
+2018-06-24 18:28:12,820 [Thread-1    ] [INFO ] [backend.views       ]  File added 45 1998_11_31_HOMEPLAZADONWTONW02JPG /home/pi/Pictures/1998_11_31_Home plazadonwtonw02.jpg /home/pi/Pictures/1998_11_31_Home/plazadonwtonw02.jpg
+2018-06-24 18:28:12,904 [Thread-1    ] [INFO ] [backend.views       ]  File added 46 1998_11_31_HOMEGE01JPG /home/pi/Pictures/1998_11_31_Home ge01.jpg /home/pi/Pictures/1998_11_31_Home/ge01.jpg
+2018-06-24 18:28:13,019 [Thread-1    ] [INFO ] [backend.views       ]  File added 47 1998_11_31_HOMETHANKSGIVING01JPG /home/pi/Pictures/1998_11_31_Home thanksgiving01.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving01.jpg
+2018-06-24 18:28:13,144 [Thread-1    ] [INFO ] [backend.views       ]  File added 48 1998_11_31_HOMEPLAZADOWNTONW01JPG /home/pi/Pictures/1998_11_31_Home plazadowntonw01.jpg /home/pi/Pictures/1998_11_31_Home/plazadowntonw01.jpg
+2018-06-24 18:28:13,240 [Thread-1    ] [INFO ] [backend.views       ]  File added 49 1998_11_31_HOMETHANKSGIVING02JPG /home/pi/Pictures/1998_11_31_Home thanksgiving02.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving02.jpg
+2018-06-24 18:28:13,325 [Thread-1    ] [INFO ] [backend.views       ]  File added 50 1998_11_31_HOMETHANKSGIVING04JPG /home/pi/Pictures/1998_11_31_Home thanksgiving04.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving04.jpg
+2018-06-24 18:28:13,410 [Thread-1    ] [INFO ] [backend.views       ]  File added 51 1998_11_31_HOMETRICKORTREAT03JPG /home/pi/Pictures/1998_11_31_Home trickortreat03.jpg /home/pi/Pictures/1998_11_31_Home/trickortreat03.jpg
+2018-06-24 18:28:13,495 [Thread-1    ] [INFO ] [backend.views       ]  File added 52 1998_11_31_HOMEBONECO_DE_NEVEJPG /home/pi/Pictures/1998_11_31_Home boneco_de_neve.jpg /home/pi/Pictures/1998_11_31_Home/boneco_de_neve.jpg
+2018-06-24 18:28:13,580 [Thread-1    ] [INFO ] [backend.views       ]  File added 53 1998_11_31_HOMETHANKSGIVING03JPG /home/pi/Pictures/1998_11_31_Home thanksgiving03.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving03.jpg
+2018-06-24 18:28:13,667 [Thread-1    ] [INFO ] [backend.views       ]  File added 54 1998_11_31_HOMEGE03JPG /home/pi/Pictures/1998_11_31_Home ge03.jpg /home/pi/Pictures/1998_11_31_Home/ge03.jpg
+2018-06-24 18:28:13,752 [Thread-1    ] [INFO ] [backend.views       ]  File added 55 1998_11_31_HOMEBANANADEPIJAMAJPG /home/pi/Pictures/1998_11_31_Home bananadepijama.jpg /home/pi/Pictures/1998_11_31_Home/bananadepijama.jpg
+2018-06-24 18:28:13,870 [Thread-1    ] [INFO ] [backend.views       ]  File added 56 1998_11_31_HOMENEVE006JPG /home/pi/Pictures/1998_11_31_Home neve006.jpg /home/pi/Pictures/1998_11_31_Home/neve006.jpg
+2018-06-24 18:28:13,947 [Thread-1    ] [INFO ] [backend.views       ]  File added 57 1998_11_31_HOMETHANKSGIVING05JPG /home/pi/Pictures/1998_11_31_Home thanksgiving05.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving05.jpg
+2018-06-24 18:28:14,041 [Thread-1    ] [INFO ] [backend.views       ]  File added 58 1998_11_31_HOMENEVE005JPG /home/pi/Pictures/1998_11_31_Home neve005.jpg /home/pi/Pictures/1998_11_31_Home/neve005.jpg
+2018-06-24 18:28:14,117 [Thread-1    ] [INFO ] [backend.views       ]  File added 59 1998_05_XX_PASSEIOBICICLETAEDSSCAN217JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan217.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan217.jpg
+2018-06-24 18:28:14,194 [Thread-1    ] [INFO ] [backend.views       ]  File added 60 1998_05_XX_PASSEIOBICICLETAEDSSCAN211JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan211.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan211.jpg
+2018-06-24 18:28:14,300 [Thread-1    ] [INFO ] [backend.views       ]  File added 61 1998_05_XX_PASSEIOBICICLETAEDSSCAN216JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan216.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan216.jpg
+2018-06-24 18:28:14,384 [Thread-1    ] [INFO ] [backend.views       ]  File added 62 1998_05_XX_PASSEIOBICICLETAEDSSCAN215JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan215.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan215.jpg
+2018-06-24 18:28:14,461 [Thread-1    ] [INFO ] [backend.views       ]  File added 63 1998_05_XX_PASSEIOBICICLETAEDSSCAN213JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan213.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan213.jpg
+2018-06-24 18:28:14,536 [Thread-1    ] [INFO ] [backend.views       ]  File added 64 1998_05_XX_PASSEIOBICICLETAEDSSCAN212JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan212.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan212.jpg
+2018-06-24 18:28:14,611 [Thread-1    ] [INFO ] [backend.views       ]  File added 65 1998_05_XX_PASSEIOBICICLETAEDSSCAN210JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan210.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan210.jpg
+2018-06-24 18:28:14,683 [Thread-1    ] [INFO ] [backend.views       ]  File added 66 1998_05_XX_PASSEIOBICICLETAEDSSCAN209JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan209.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan209.jpg
+2018-06-24 18:28:14,757 [Thread-1    ] [INFO ] [backend.views       ]  File added 67 1998_05_XX_PASSEIOBICICLETAEDSSCAN214JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan214.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan214.jpg
+2018-06-24 18:28:14,831 [Thread-1    ] [INFO ] [backend.views       ]  File added 68 1998_05_XX_PASSEIOBICICLETAEDSSCAN208JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan208.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan208.jpg
+2018-06-24 18:28:14,910 [Thread-1    ] [INFO ] [backend.views       ]  File added 69 1998_10_18_RENASCENCEFAIRPAVAO01JPG /home/pi/Pictures/1998_10_18_RenascenceFair pavao01.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/pavao01.jpg
+2018-06-24 18:28:14,985 [Thread-1    ] [INFO ] [backend.views       ]  File added 70 1998_10_18_RENASCENCEFAIRLANCHJPG /home/pi/Pictures/1998_10_18_RenascenceFair lanch.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/lanch.jpg
+2018-06-24 18:28:15,216 [Thread-1    ] [INFO ] [backend.views       ]  File added 71 1998_10_18_RENASCENCEFAIRPAVAO02JPG /home/pi/Pictures/1998_10_18_RenascenceFair pavao02.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/pavao02.jpg
+2018-06-24 18:28:15,573 [Thread-1    ] [INFO ] [backend.views       ]  File added 72 1998_10_18_RENASCENCEFAIRFOLESJPG /home/pi/Pictures/1998_10_18_RenascenceFair foles.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/foles.jpg
+2018-06-24 18:28:15,673 [Thread-1    ] [INFO ] [backend.views       ]  File added 73 1998_10_18_RENASCENCEFAIRBICHAJPG /home/pi/Pictures/1998_10_18_RenascenceFair bicha.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/bicha.jpg
+2018-06-24 18:28:15,755 [Thread-1    ] [INFO ] [backend.views       ]  File added 74 1998_10_18_RENASCENCEFAIRCHURRASCOJPG /home/pi/Pictures/1998_10_18_RenascenceFair churrasco.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/churrasco.jpg
+2018-06-24 18:28:15,837 [Thread-1    ] [INFO ] [backend.views       ]  File added 75 1998_10_18_RENASCENCEFAIRCABRASJPG /home/pi/Pictures/1998_10_18_RenascenceFair cabras.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg
+2018-06-24 18:28:15,920 [Thread-1    ] [INFO ] [backend.views       ]  File added 76 1998_10_18_RENASCENCEFAIRMENDIGOSJPG /home/pi/Pictures/1998_10_18_RenascenceFair mendigos.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/mendigos.jpg
+2018-06-24 18:28:16,027 [Thread-1    ] [INFO ] [backend.views       ]  File added 77 1998_10_18_RENASCENCEFAIRCITARAJPG /home/pi/Pictures/1998_10_18_RenascenceFair citara.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/citara.jpg
+2018-06-24 18:28:16,169 [Thread-1    ] [INFO ] [backend.views       ]  File added 78 1998_10_18_RENASCENCEFAIRMOTOQUEIRAJPG /home/pi/Pictures/1998_10_18_RenascenceFair motoqueira.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg
+2018-06-24 18:28:16,295 [Thread-1    ] [INFO ] [backend.views       ]  File added 79 1998_10_18_RENASCENCEFAIRMASCARAJPG /home/pi/Pictures/1998_10_18_RenascenceFair mascara.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/mascara.jpg
+2018-06-24 18:28:16,380 [Thread-1    ] [INFO ] [backend.views       ]  File added 80 1998_10_18_RENASCENCEFAIRTORNEIOJPG /home/pi/Pictures/1998_10_18_RenascenceFair torneio.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/torneio.jpg
+2018-06-24 18:28:16,462 [Thread-1    ] [INFO ] [backend.views       ]  File added 81 1998_10_18_RENASCENCEFAIRDESFILEJPG /home/pi/Pictures/1998_10_18_RenascenceFair desfile.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/desfile.jpg
+2018-06-24 18:28:16,541 [Thread-1    ] [INFO ] [backend.views       ]  File added 82 1998_10_18_RENASCENCEFAIRLEOCRISJPG /home/pi/Pictures/1998_10_18_RenascenceFair leocris.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg
+2018-06-24 18:28:16,620 [Thread-1    ] [INFO ] [backend.views       ]  File added 83 1998_10_18_RENASCENCEFAIRLOUCAJPG /home/pi/Pictures/1998_10_18_RenascenceFair louca.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/louca.jpg
+2018-06-24 18:28:16,700 [Thread-1    ] [INFO ] [backend.views       ]  File added 84 1998_10_18_RENASCENCEFAIRFIGURAJPG /home/pi/Pictures/1998_10_18_RenascenceFair figura.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/figura.jpg
+2018-06-24 18:28:16,782 [Thread-1    ] [INFO ] [backend.views       ]  File added 85 0000_00_00_GEORGINAMAMA_002JPG /home/pi/Pictures/0000_00_00_Georgina mama_002.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_002.jpg
+2018-06-24 18:28:16,862 [Thread-1    ] [INFO ] [backend.views       ]  File added 86 0000_00_00_GEORGINAMAMA_004JPG /home/pi/Pictures/0000_00_00_Georgina mama_004.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_004.jpg
+2018-06-24 18:28:16,983 [Thread-1    ] [INFO ] [backend.views       ]  File added 87 0000_00_00_GEORGINAMAMA_003JPG /home/pi/Pictures/0000_00_00_Georgina mama_003.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_003.jpg
+2018-06-24 18:28:17,062 [Thread-1    ] [INFO ] [backend.views       ]  File added 88 0000_00_00_GEORGINAMAMA_005JPG /home/pi/Pictures/0000_00_00_Georgina mama_005.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_005.jpg
+2018-06-24 18:28:17,148 [Thread-1    ] [INFO ] [backend.views       ]  File added 89 0000_00_00_GEORGINAMAMA_006JPG /home/pi/Pictures/0000_00_00_Georgina mama_006.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_006.jpg
+2018-06-24 18:28:17,248 [Thread-1    ] [INFO ] [backend.views       ]  File added 90 0000_00_00_GEORGINAMAMA_001JPG /home/pi/Pictures/0000_00_00_Georgina mama_001.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_001.jpg
+2018-06-24 18:28:17,324 [Thread-1    ] [INFO ] [django.server       ]  "GET /build HTTP/1.1" 200 48
+2018-06-24 18:28:27,509 [Thread-3    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 47
+2018-06-24 18:32:10,912 [Thread-4    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 12867
+2018-06-24 20:27:44,897 [Thread-5    ] [INFO ] [backend.views       ]  Read files from /home/pi/Pictures
+2018-06-24 20:27:44,910 [Thread-5    ] [INFO ] [backend.views       ]  20171230_170545.jpg
+2018-06-24 20:27:44,917 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152217.jpg
+2018-06-24 20:27:44,923 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152212.jpg
+2018-06-24 20:27:44,930 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152216.jpg
+2018-06-24 20:27:44,938 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152118.jpg
+2018-06-24 20:27:44,943 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152143.jpg
+2018-06-24 20:27:44,951 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152131.jpg
+2018-06-24 20:27:44,959 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152116.jpg
+2018-06-24 20:27:44,965 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152146.jpg
+2018-06-24 20:27:44,972 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152129.jpg
+2018-06-24 20:27:44,978 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152142.jpg
+2018-06-24 20:27:44,985 [Thread-5    ] [INFO ] [backend.views       ]  20171230_152211.jpg
+2018-06-24 20:27:44,993 [Thread-5    ] [INFO ] [backend.views       ]  IMG_2010.JPG
+2018-06-24 20:27:45,004 [Thread-5    ] [INFO ] [backend.views       ]  Scan222.jpg
+2018-06-24 20:27:45,012 [Thread-5    ] [INFO ] [backend.views       ]  Scan228.jpg
+2018-06-24 20:27:45,019 [Thread-5    ] [INFO ] [backend.views       ]  Scan219.jpg
+2018-06-24 20:27:45,026 [Thread-5    ] [INFO ] [backend.views       ]  Scan223.jpg
+2018-06-24 20:27:45,033 [Thread-5    ] [INFO ] [backend.views       ]  Scan218.jpg
+2018-06-24 20:27:45,039 [Thread-5    ] [INFO ] [backend.views       ]  Scan225.jpg
+2018-06-24 20:27:45,045 [Thread-5    ] [INFO ] [backend.views       ]  Scan227.jpg
+2018-06-24 20:27:45,052 [Thread-5    ] [INFO ] [backend.views       ]  Scan226.jpg
+2018-06-24 20:27:45,057 [Thread-5    ] [INFO ] [backend.views       ]  Scan221.jpg
+2018-06-24 20:27:45,063 [Thread-5    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 20:27:45,069 [Thread-5    ] [INFO ] [backend.views       ]  Scan224.jpg
+2018-06-24 20:27:45,075 [Thread-5    ] [INFO ] [backend.views       ]  Scan220.jpg
+2018-06-24 20:27:45,086 [Thread-5    ] [INFO ] [backend.views       ]  pic79562.jpg
+2018-06-24 20:27:45,094 [Thread-5    ] [INFO ] [backend.views       ]  ##picat
+2018-06-24 20:27:45,100 [Thread-5    ] [INFO ] [backend.views       ]  pic42215.jpg
+2018-06-24 20:27:45,106 [Thread-5    ] [INFO ] [backend.views       ]  pic70967.jpg
+2018-06-24 20:27:45,112 [Thread-5    ] [INFO ] [backend.views       ]  pic14792.jpg
+2018-06-24 20:27:45,117 [Thread-5    ] [INFO ] [backend.views       ]  pic20485.jpg
+2018-06-24 20:27:45,123 [Thread-5    ] [INFO ] [backend.views       ]  pic25679.jpg
+2018-06-24 20:27:45,129 [Thread-5    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 20:27:45,134 [Thread-5    ] [INFO ] [backend.views       ]  pic28837.jpg
+2018-06-24 20:27:45,140 [Thread-5    ] [INFO ] [backend.views       ]  pic19622.jpg
+2018-06-24 20:27:45,156 [Thread-5    ] [INFO ] [backend.views       ]  huummm1.jpg
+2018-06-24 20:27:45,162 [Thread-5    ] [INFO ] [backend.views       ]  crisleo01.jpg
+2018-06-24 20:27:45,169 [Thread-5    ] [INFO ] [backend.views       ]  huummm3.jpg
+2018-06-24 20:27:45,176 [Thread-5    ] [INFO ] [backend.views       ]  ge02.jpg
+2018-06-24 20:27:45,183 [Thread-5    ] [INFO ] [backend.views       ]  crisleo02.jpg
+2018-06-24 20:27:45,189 [Thread-5    ] [INFO ] [backend.views       ]  bonitao.jpg
+2018-06-24 20:27:45,196 [Thread-5    ] [INFO ] [backend.views       ]  huumm2.jpg
+2018-06-24 20:27:45,201 [Thread-5    ] [INFO ] [backend.views       ]  cris02.jpg
+2018-06-24 20:27:45,207 [Thread-5    ] [INFO ] [backend.views       ]  neve004.jpg
+2018-06-24 20:27:45,213 [Thread-5    ] [INFO ] [backend.views       ]  pic94314.jpg
+2018-06-24 20:27:45,218 [Thread-5    ] [INFO ] [backend.views       ]  pic68229.jpg
+2018-06-24 20:27:45,224 [Thread-5    ] [INFO ] [backend.views       ]  trickortreat01.jpg
+2018-06-24 20:27:45,230 [Thread-5    ] [INFO ] [backend.views       ]  plazadonwtonw02.jpg
+2018-06-24 20:27:45,236 [Thread-5    ] [INFO ] [backend.views       ]  ge01.jpg
+2018-06-24 20:27:45,241 [Thread-5    ] [INFO ] [backend.views       ]  thanksgiving01.jpg
+2018-06-24 20:27:45,247 [Thread-5    ] [INFO ] [backend.views       ]  plazadowntonw01.jpg
+2018-06-24 20:27:45,253 [Thread-5    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 20:27:45,258 [Thread-5    ] [INFO ] [backend.views       ]  thanksgiving02.jpg
+2018-06-24 20:27:45,264 [Thread-5    ] [INFO ] [backend.views       ]  thanksgiving04.jpg
+2018-06-24 20:27:45,269 [Thread-5    ] [INFO ] [backend.views       ]  trickortreat03.jpg
+2018-06-24 20:27:45,275 [Thread-5    ] [INFO ] [backend.views       ]  boneco_de_neve.jpg
+2018-06-24 20:27:45,281 [Thread-5    ] [INFO ] [backend.views       ]  thanksgiving03.jpg
+2018-06-24 20:27:45,286 [Thread-5    ] [INFO ] [backend.views       ]  ge03.jpg
+2018-06-24 20:27:45,292 [Thread-5    ] [INFO ] [backend.views       ]  bananadepijama.jpg
+2018-06-24 20:27:45,297 [Thread-5    ] [INFO ] [backend.views       ]  neve006.jpg
+2018-06-24 20:27:45,303 [Thread-5    ] [INFO ] [backend.views       ]  thanksgiving05.jpg
+2018-06-24 20:27:45,310 [Thread-5    ] [INFO ] [backend.views       ]  neve005.jpg
+2018-06-24 20:27:45,320 [Thread-5    ] [INFO ] [backend.views       ]  Scan217.jpg
+2018-06-24 20:27:45,326 [Thread-5    ] [INFO ] [backend.views       ]  Scan211.jpg
+2018-06-24 20:27:45,331 [Thread-5    ] [INFO ] [backend.views       ]  Scan216.jpg
+2018-06-24 20:27:45,337 [Thread-5    ] [INFO ] [backend.views       ]  Scan215.jpg
+2018-06-24 20:27:45,342 [Thread-5    ] [INFO ] [backend.views       ]  Scan213.jpg
+2018-06-24 20:27:45,348 [Thread-5    ] [INFO ] [backend.views       ]  Scan212.jpg
+2018-06-24 20:27:45,355 [Thread-5    ] [INFO ] [backend.views       ]  Scan210.jpg
+2018-06-24 20:27:45,360 [Thread-5    ] [INFO ] [backend.views       ]  Scan209.jpg
+2018-06-24 20:27:45,366 [Thread-5    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 20:27:45,373 [Thread-5    ] [INFO ] [backend.views       ]  Scan214.jpg
+2018-06-24 20:27:45,380 [Thread-5    ] [INFO ] [backend.views       ]  Scan208.jpg
+2018-06-24 20:27:45,395 [Thread-5    ] [INFO ] [backend.views       ]  pavao01.jpg
+2018-06-24 20:27:45,402 [Thread-5    ] [INFO ] [backend.views       ]  lanch.jpg
+2018-06-24 20:27:45,408 [Thread-5    ] [INFO ] [backend.views       ]  pavao02.jpg
+2018-06-24 20:27:45,413 [Thread-5    ] [INFO ] [backend.views       ]  foles.jpg
+2018-06-24 20:27:45,419 [Thread-5    ] [INFO ] [backend.views       ]  readme.txt
+2018-06-24 20:27:45,424 [Thread-5    ] [INFO ] [backend.views       ]  bicha.jpg
+2018-06-24 20:27:45,430 [Thread-5    ] [INFO ] [backend.views       ]  churrasco.jpg
+2018-06-24 20:27:45,435 [Thread-5    ] [INFO ] [backend.views       ]  ##picat
+2018-06-24 20:27:45,440 [Thread-5    ] [INFO ] [backend.views       ]  cabras.jpg
+2018-06-24 20:27:45,446 [Thread-5    ] [INFO ] [backend.views       ]  mendigos.jpg
+2018-06-24 20:27:45,452 [Thread-5    ] [INFO ] [backend.views       ]  citara.jpg
+2018-06-24 20:27:45,457 [Thread-5    ] [INFO ] [backend.views       ]  motoqueira.jpg
+2018-06-24 20:27:45,463 [Thread-5    ] [INFO ] [backend.views       ]  mascara.jpg
+2018-06-24 20:27:45,469 [Thread-5    ] [INFO ] [backend.views       ]  torneio.jpg
+2018-06-24 20:27:45,477 [Thread-5    ] [INFO ] [backend.views       ]  Thumbs.db
+2018-06-24 20:27:45,484 [Thread-5    ] [INFO ] [backend.views       ]  desfile.jpg
+2018-06-24 20:27:45,490 [Thread-5    ] [INFO ] [backend.views       ]  leocris.jpg
+2018-06-24 20:27:45,497 [Thread-5    ] [INFO ] [backend.views       ]  louca.jpg
+2018-06-24 20:27:45,504 [Thread-5    ] [INFO ] [backend.views       ]  figura.jpg
+2018-06-24 20:27:45,514 [Thread-5    ] [INFO ] [backend.views       ]  mama_002.jpg
+2018-06-24 20:27:45,521 [Thread-5    ] [INFO ] [backend.views       ]  mama_004.jpg
+2018-06-24 20:27:45,527 [Thread-5    ] [INFO ] [backend.views       ]  mama_003.jpg
+2018-06-24 20:27:45,532 [Thread-5    ] [INFO ] [backend.views       ]  mama_005.jpg
+2018-06-24 20:27:45,540 [Thread-5    ] [INFO ] [backend.views       ]  mama_006.jpg
+2018-06-24 20:27:45,547 [Thread-5    ] [INFO ] [backend.views       ]  .picasa.ini
+2018-06-24 20:27:45,553 [Thread-5    ] [INFO ] [backend.views       ]  mama_001.jpg
+2018-06-24 20:27:45,602 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 1 20171230_170545JPG /home/pi/Pictures 20171230_170545.jpg /home/pi/Pictures/20171230_170545.jpg
+2018-06-24 20:27:45,639 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 2 20171230_152217JPG /home/pi/Pictures 20171230_152217.jpg /home/pi/Pictures/20171230_152217.jpg
+2018-06-24 20:27:45,674 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 3 20171230_152212JPG /home/pi/Pictures 20171230_152212.jpg /home/pi/Pictures/20171230_152212.jpg
+2018-06-24 20:27:45,712 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 4 20171230_152216JPG /home/pi/Pictures 20171230_152216.jpg /home/pi/Pictures/20171230_152216.jpg
+2018-06-24 20:27:45,749 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 5 20171230_152118JPG /home/pi/Pictures 20171230_152118.jpg /home/pi/Pictures/20171230_152118.jpg
+2018-06-24 20:27:45,787 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 6 20171230_152143JPG /home/pi/Pictures 20171230_152143.jpg /home/pi/Pictures/20171230_152143.jpg
+2018-06-24 20:27:45,823 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 7 20171230_152131JPG /home/pi/Pictures 20171230_152131.jpg /home/pi/Pictures/20171230_152131.jpg
+2018-06-24 20:27:45,860 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 8 20171230_152116JPG /home/pi/Pictures 20171230_152116.jpg /home/pi/Pictures/20171230_152116.jpg
+2018-06-24 20:27:45,897 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 9 20171230_152146JPG /home/pi/Pictures 20171230_152146.jpg /home/pi/Pictures/20171230_152146.jpg
+2018-06-24 20:27:45,934 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 10 20171230_152129JPG /home/pi/Pictures 20171230_152129.jpg /home/pi/Pictures/20171230_152129.jpg
+2018-06-24 20:27:45,972 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 11 20171230_152142JPG /home/pi/Pictures 20171230_152142.jpg /home/pi/Pictures/20171230_152142.jpg
+2018-06-24 20:27:46,007 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 12 20171230_152211JPG /home/pi/Pictures 20171230_152211.jpg /home/pi/Pictures/20171230_152211.jpg
+2018-06-24 20:27:46,045 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 13 IMG_2010JPG /home/pi/Pictures IMG_2010.JPG /home/pi/Pictures/IMG_2010.JPG
+2018-06-24 20:27:46,082 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 14 1998_10_XX_SACRAMENTOSCAN222JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan222.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan222.jpg
+2018-06-24 20:27:46,119 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 15 1998_10_XX_SACRAMENTOSCAN228JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan228.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan228.jpg
+2018-06-24 20:27:46,156 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 16 1998_10_XX_SACRAMENTOSCAN219JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan219.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan219.jpg
+2018-06-24 20:27:46,190 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 17 1998_10_XX_SACRAMENTOSCAN223JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan223.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan223.jpg
+2018-06-24 20:27:46,223 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 18 1998_10_XX_SACRAMENTOSCAN218JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan218.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan218.jpg
+2018-06-24 20:27:46,258 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 19 1998_10_XX_SACRAMENTOSCAN225JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan225.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan225.jpg
+2018-06-24 20:27:46,295 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 20 1998_10_XX_SACRAMENTOSCAN227JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan227.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan227.jpg
+2018-06-24 20:27:46,333 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 21 1998_10_XX_SACRAMENTOSCAN226JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan226.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan226.jpg
+2018-06-24 20:27:46,370 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 22 1998_10_XX_SACRAMENTOSCAN221JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan221.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan221.jpg
+2018-06-24 20:27:46,406 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 23 1998_10_XX_SACRAMENTOSCAN224JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan224.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan224.jpg
+2018-06-24 20:27:46,444 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 24 1998_10_XX_SACRAMENTOSCAN220JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan220.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan220.jpg
+2018-06-24 20:27:46,480 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 25 2000_05_28_HOMEPIC79562JPG /home/pi/Pictures/2000_05_28_Home pic79562.jpg /home/pi/Pictures/2000_05_28_Home/pic79562.jpg
+2018-06-24 20:27:46,516 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 26 2000_05_28_HOMEPIC42215JPG /home/pi/Pictures/2000_05_28_Home pic42215.jpg /home/pi/Pictures/2000_05_28_Home/pic42215.jpg
+2018-06-24 20:27:46,551 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 27 2000_05_28_HOMEPIC70967JPG /home/pi/Pictures/2000_05_28_Home pic70967.jpg /home/pi/Pictures/2000_05_28_Home/pic70967.jpg
+2018-06-24 20:27:46,583 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 28 2000_05_28_HOMEPIC14792JPG /home/pi/Pictures/2000_05_28_Home pic14792.jpg /home/pi/Pictures/2000_05_28_Home/pic14792.jpg
+2018-06-24 20:27:46,617 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 29 2000_05_28_HOMEPIC20485JPG /home/pi/Pictures/2000_05_28_Home pic20485.jpg /home/pi/Pictures/2000_05_28_Home/pic20485.jpg
+2018-06-24 20:27:46,649 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 30 2000_05_28_HOMEPIC25679JPG /home/pi/Pictures/2000_05_28_Home pic25679.jpg /home/pi/Pictures/2000_05_28_Home/pic25679.jpg
+2018-06-24 20:27:46,682 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 31 2000_05_28_HOMEPIC28837JPG /home/pi/Pictures/2000_05_28_Home pic28837.jpg /home/pi/Pictures/2000_05_28_Home/pic28837.jpg
+2018-06-24 20:27:46,718 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 32 2000_05_28_HOMEPIC19622JPG /home/pi/Pictures/2000_05_28_Home pic19622.jpg /home/pi/Pictures/2000_05_28_Home/pic19622.jpg
+2018-06-24 20:27:46,755 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 33 1998_11_31_HOMEHUUMMM1JPG /home/pi/Pictures/1998_11_31_Home huummm1.jpg /home/pi/Pictures/1998_11_31_Home/huummm1.jpg
+2018-06-24 20:27:46,792 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 34 1998_11_31_HOMECRISLEO01JPG /home/pi/Pictures/1998_11_31_Home crisleo01.jpg /home/pi/Pictures/1998_11_31_Home/crisleo01.jpg
+2018-06-24 20:27:46,829 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 35 1998_11_31_HOMEHUUMMM3JPG /home/pi/Pictures/1998_11_31_Home huummm3.jpg /home/pi/Pictures/1998_11_31_Home/huummm3.jpg
+2018-06-24 20:27:46,865 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 36 1998_11_31_HOMEGE02JPG /home/pi/Pictures/1998_11_31_Home ge02.jpg /home/pi/Pictures/1998_11_31_Home/ge02.jpg
+2018-06-24 20:27:46,904 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 37 1998_11_31_HOMECRISLEO02JPG /home/pi/Pictures/1998_11_31_Home crisleo02.jpg /home/pi/Pictures/1998_11_31_Home/crisleo02.jpg
+2018-06-24 20:27:46,942 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 38 1998_11_31_HOMEBONITAOJPG /home/pi/Pictures/1998_11_31_Home bonitao.jpg /home/pi/Pictures/1998_11_31_Home/bonitao.jpg
+2018-06-24 20:27:46,978 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 39 1998_11_31_HOMEHUUMM2JPG /home/pi/Pictures/1998_11_31_Home huumm2.jpg /home/pi/Pictures/1998_11_31_Home/huumm2.jpg
+2018-06-24 20:27:47,017 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 40 1998_11_31_HOMECRIS02JPG /home/pi/Pictures/1998_11_31_Home cris02.jpg /home/pi/Pictures/1998_11_31_Home/cris02.jpg
+2018-06-24 20:27:47,054 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 41 1998_11_31_HOMENEVE004JPG /home/pi/Pictures/1998_11_31_Home neve004.jpg /home/pi/Pictures/1998_11_31_Home/neve004.jpg
+2018-06-24 20:27:47,091 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 42 1998_11_31_HOMEPIC94314JPG /home/pi/Pictures/1998_11_31_Home pic94314.jpg /home/pi/Pictures/1998_11_31_Home/pic94314.jpg
+2018-06-24 20:27:47,130 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 43 1998_11_31_HOMEPIC68229JPG /home/pi/Pictures/1998_11_31_Home pic68229.jpg /home/pi/Pictures/1998_11_31_Home/pic68229.jpg
+2018-06-24 20:27:47,168 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 44 1998_11_31_HOMETRICKORTREAT01JPG /home/pi/Pictures/1998_11_31_Home trickortreat01.jpg /home/pi/Pictures/1998_11_31_Home/trickortreat01.jpg
+2018-06-24 20:27:47,205 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 45 1998_11_31_HOMEPLAZADONWTONW02JPG /home/pi/Pictures/1998_11_31_Home plazadonwtonw02.jpg /home/pi/Pictures/1998_11_31_Home/plazadonwtonw02.jpg
+2018-06-24 20:27:47,241 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 46 1998_11_31_HOMEGE01JPG /home/pi/Pictures/1998_11_31_Home ge01.jpg /home/pi/Pictures/1998_11_31_Home/ge01.jpg
+2018-06-24 20:27:47,277 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 47 1998_11_31_HOMETHANKSGIVING01JPG /home/pi/Pictures/1998_11_31_Home thanksgiving01.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving01.jpg
+2018-06-24 20:27:47,311 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 48 1998_11_31_HOMEPLAZADOWNTONW01JPG /home/pi/Pictures/1998_11_31_Home plazadowntonw01.jpg /home/pi/Pictures/1998_11_31_Home/plazadowntonw01.jpg
+2018-06-24 20:27:47,347 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 49 1998_11_31_HOMETHANKSGIVING02JPG /home/pi/Pictures/1998_11_31_Home thanksgiving02.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving02.jpg
+2018-06-24 20:27:47,387 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 50 1998_11_31_HOMETHANKSGIVING04JPG /home/pi/Pictures/1998_11_31_Home thanksgiving04.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving04.jpg
+2018-06-24 20:27:47,425 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 51 1998_11_31_HOMETRICKORTREAT03JPG /home/pi/Pictures/1998_11_31_Home trickortreat03.jpg /home/pi/Pictures/1998_11_31_Home/trickortreat03.jpg
+2018-06-24 20:27:47,462 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 52 1998_11_31_HOMEBONECO_DE_NEVEJPG /home/pi/Pictures/1998_11_31_Home boneco_de_neve.jpg /home/pi/Pictures/1998_11_31_Home/boneco_de_neve.jpg
+2018-06-24 20:27:47,499 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 53 1998_11_31_HOMETHANKSGIVING03JPG /home/pi/Pictures/1998_11_31_Home thanksgiving03.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving03.jpg
+2018-06-24 20:27:47,537 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 54 1998_11_31_HOMEGE03JPG /home/pi/Pictures/1998_11_31_Home ge03.jpg /home/pi/Pictures/1998_11_31_Home/ge03.jpg
+2018-06-24 20:27:47,574 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 55 1998_11_31_HOMEBANANADEPIJAMAJPG /home/pi/Pictures/1998_11_31_Home bananadepijama.jpg /home/pi/Pictures/1998_11_31_Home/bananadepijama.jpg
+2018-06-24 20:27:47,620 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 56 1998_11_31_HOMENEVE006JPG /home/pi/Pictures/1998_11_31_Home neve006.jpg /home/pi/Pictures/1998_11_31_Home/neve006.jpg
+2018-06-24 20:27:47,687 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 57 1998_11_31_HOMETHANKSGIVING05JPG /home/pi/Pictures/1998_11_31_Home thanksgiving05.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving05.jpg
+2018-06-24 20:27:47,755 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 58 1998_11_31_HOMENEVE005JPG /home/pi/Pictures/1998_11_31_Home neve005.jpg /home/pi/Pictures/1998_11_31_Home/neve005.jpg
+2018-06-24 20:27:47,823 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 59 1998_05_XX_PASSEIOBICICLETAEDSSCAN217JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan217.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan217.jpg
+2018-06-24 20:27:47,885 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 60 1998_05_XX_PASSEIOBICICLETAEDSSCAN211JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan211.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan211.jpg
+2018-06-24 20:27:47,921 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 61 1998_05_XX_PASSEIOBICICLETAEDSSCAN216JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan216.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan216.jpg
+2018-06-24 20:27:47,956 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 62 1998_05_XX_PASSEIOBICICLETAEDSSCAN215JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan215.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan215.jpg
+2018-06-24 20:27:47,989 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 63 1998_05_XX_PASSEIOBICICLETAEDSSCAN213JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan213.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan213.jpg
+2018-06-24 20:27:48,021 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 64 1998_05_XX_PASSEIOBICICLETAEDSSCAN212JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan212.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan212.jpg
+2018-06-24 20:27:48,058 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 65 1998_05_XX_PASSEIOBICICLETAEDSSCAN210JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan210.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan210.jpg
+2018-06-24 20:27:48,091 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 66 1998_05_XX_PASSEIOBICICLETAEDSSCAN209JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan209.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan209.jpg
+2018-06-24 20:27:48,123 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 67 1998_05_XX_PASSEIOBICICLETAEDSSCAN214JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan214.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan214.jpg
+2018-06-24 20:27:48,156 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 68 1998_05_XX_PASSEIOBICICLETAEDSSCAN208JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan208.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan208.jpg
+2018-06-24 20:27:48,189 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 69 1998_10_18_RENASCENCEFAIRPAVAO01JPG /home/pi/Pictures/1998_10_18_RenascenceFair pavao01.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/pavao01.jpg
+2018-06-24 20:27:48,222 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 70 1998_10_18_RENASCENCEFAIRLANCHJPG /home/pi/Pictures/1998_10_18_RenascenceFair lanch.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/lanch.jpg
+2018-06-24 20:27:48,258 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 71 1998_10_18_RENASCENCEFAIRPAVAO02JPG /home/pi/Pictures/1998_10_18_RenascenceFair pavao02.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/pavao02.jpg
+2018-06-24 20:27:48,294 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 72 1998_10_18_RENASCENCEFAIRFOLESJPG /home/pi/Pictures/1998_10_18_RenascenceFair foles.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/foles.jpg
+2018-06-24 20:27:48,330 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 73 1998_10_18_RENASCENCEFAIRBICHAJPG /home/pi/Pictures/1998_10_18_RenascenceFair bicha.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/bicha.jpg
+2018-06-24 20:27:48,365 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 74 1998_10_18_RENASCENCEFAIRCHURRASCOJPG /home/pi/Pictures/1998_10_18_RenascenceFair churrasco.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/churrasco.jpg
+2018-06-24 20:27:48,404 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 75 1998_10_18_RENASCENCEFAIRCABRASJPG /home/pi/Pictures/1998_10_18_RenascenceFair cabras.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg
+2018-06-24 20:27:48,441 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 76 1998_10_18_RENASCENCEFAIRMENDIGOSJPG /home/pi/Pictures/1998_10_18_RenascenceFair mendigos.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/mendigos.jpg
+2018-06-24 20:27:48,479 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 77 1998_10_18_RENASCENCEFAIRCITARAJPG /home/pi/Pictures/1998_10_18_RenascenceFair citara.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/citara.jpg
+2018-06-24 20:27:48,516 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 78 1998_10_18_RENASCENCEFAIRMOTOQUEIRAJPG /home/pi/Pictures/1998_10_18_RenascenceFair motoqueira.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg
+2018-06-24 20:27:48,553 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 79 1998_10_18_RENASCENCEFAIRMASCARAJPG /home/pi/Pictures/1998_10_18_RenascenceFair mascara.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/mascara.jpg
+2018-06-24 20:27:48,590 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 80 1998_10_18_RENASCENCEFAIRTORNEIOJPG /home/pi/Pictures/1998_10_18_RenascenceFair torneio.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/torneio.jpg
+2018-06-24 20:27:48,626 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 81 1998_10_18_RENASCENCEFAIRDESFILEJPG /home/pi/Pictures/1998_10_18_RenascenceFair desfile.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/desfile.jpg
+2018-06-24 20:27:48,664 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 82 1998_10_18_RENASCENCEFAIRLEOCRISJPG /home/pi/Pictures/1998_10_18_RenascenceFair leocris.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg
+2018-06-24 20:27:48,701 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 83 1998_10_18_RENASCENCEFAIRLOUCAJPG /home/pi/Pictures/1998_10_18_RenascenceFair louca.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/louca.jpg
+2018-06-24 20:27:48,738 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 84 1998_10_18_RENASCENCEFAIRFIGURAJPG /home/pi/Pictures/1998_10_18_RenascenceFair figura.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/figura.jpg
+2018-06-24 20:27:48,775 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 85 0000_00_00_GEORGINAMAMA_002JPG /home/pi/Pictures/0000_00_00_Georgina mama_002.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_002.jpg
+2018-06-24 20:27:48,814 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 86 0000_00_00_GEORGINAMAMA_004JPG /home/pi/Pictures/0000_00_00_Georgina mama_004.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_004.jpg
+2018-06-24 20:27:48,851 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 87 0000_00_00_GEORGINAMAMA_003JPG /home/pi/Pictures/0000_00_00_Georgina mama_003.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_003.jpg
+2018-06-24 20:27:48,889 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 88 0000_00_00_GEORGINAMAMA_005JPG /home/pi/Pictures/0000_00_00_Georgina mama_005.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_005.jpg
+2018-06-24 20:27:48,927 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 89 0000_00_00_GEORGINAMAMA_006JPG /home/pi/Pictures/0000_00_00_Georgina mama_006.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_006.jpg
+2018-06-24 20:27:48,969 [Thread-5    ] [INFO ] [backend.views       ]  File already in DB 90 0000_00_00_GEORGINAMAMA_001JPG /home/pi/Pictures/0000_00_00_Georgina mama_001.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_001.jpg
+2018-06-24 20:27:49,010 [Thread-5    ] [INFO ] [django.server       ]  "GET /build HTTP/1.1" 200 46
+2018-06-24 20:28:03,996 [Thread-6    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/ HTTP/1.1" 200 28301
+2018-06-24 20:28:04,313 [Thread-7    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 20:28:13,515 [Thread-8    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/72/change/ HTTP/1.1" 200 7373
+2018-06-24 20:28:13,853 [Thread-9    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 20:28:23,480 [Thread-10   ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/72/delete/ HTTP/1.1" 200 3054
+2018-06-24 20:28:23,638 [Thread-11   ] [INFO ] [django.server       ]  "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2018-06-24 20:28:26,770 [Thread-12   ] [INFO ] [django.server       ]  "POST /admin/backend/pictures/72/delete/ HTTP/1.1" 302 0
+2018-06-24 20:28:35,447 [Thread-13   ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/ HTTP/1.1" 200 28185
+2018-06-24 20:28:35,766 [Thread-14   ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 20:28:35,996 [Thread-15   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2018-06-24 20:45:43,446 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1302 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ea6eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 20:47:24,962 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e88eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 20:48:01,922 [Thread-1    ] [INFO ] [django.server       ]  "POST /admin/backend/pictures/ HTTP/1.1" 200 16626
+2018-06-24 20:49:02,079 [Thread-3    ] [INFO ] [django.server       ]  "POST /admin/backend/pictures/ HTTP/1.1" 302 0
+2018-06-24 20:49:03,539 [Thread-4    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/ HTTP/1.1" 200 3189
+2018-06-24 20:49:03,886 [Thread-5    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 20:49:12,290 [Thread-6    ] [INFO ] [backend.views       ]  Read files from /home/pi/Pictures
+2018-06-24 20:49:12,328 [Thread-6    ] [ERROR] [django.request      ]  Internal Server Error: /build
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/mypicframeapi/backend/views.py", line 121, in build
+    inprimarykey=primarykey
+NameError: global name 'primarykey' is not defined
+2018-06-24 20:49:15,305 [Thread-6    ] [ERROR] [django.server       ]  "GET /build HTTP/1.1" 500 72086
+2018-06-24 20:49:48,857 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1350 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f35eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 20:53:02,586 [Thread-1    ] [INFO ] [backend.views       ]  Read files from /home/pi/Pictures
+2018-06-24 20:53:02,621 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_170545JPG exists
+2018-06-24 20:53:02,730 [Thread-1    ] [INFO ] [backend.views       ]  20171230_170545JPG not found in DB. Add it.
+2018-06-24 20:53:03,095 [Thread-1    ] [INFO ] [backend.views       ]  File added 91 20171230_170545JPG /home/pi/Pictures 20171230_170545.jpg /home/pi/Pictures/20171230_170545.jpg
+2018-06-24 20:53:03,101 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152217JPG exists
+2018-06-24 20:53:03,129 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152217JPG not found in DB. Add it.
+2018-06-24 20:53:03,183 [Thread-1    ] [INFO ] [backend.views       ]  File added 92 20171230_152217JPG /home/pi/Pictures 20171230_152217.jpg /home/pi/Pictures/20171230_152217.jpg
+2018-06-24 20:53:03,190 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152212JPG exists
+2018-06-24 20:53:03,218 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152212JPG not found in DB. Add it.
+2018-06-24 20:53:03,270 [Thread-1    ] [INFO ] [backend.views       ]  File added 93 20171230_152212JPG /home/pi/Pictures 20171230_152212.jpg /home/pi/Pictures/20171230_152212.jpg
+2018-06-24 20:53:03,277 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152216JPG exists
+2018-06-24 20:53:03,307 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152216JPG not found in DB. Add it.
+2018-06-24 20:53:03,359 [Thread-1    ] [INFO ] [backend.views       ]  File added 94 20171230_152216JPG /home/pi/Pictures 20171230_152216.jpg /home/pi/Pictures/20171230_152216.jpg
+2018-06-24 20:53:03,367 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152118JPG exists
+2018-06-24 20:53:03,400 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152118JPG not found in DB. Add it.
+2018-06-24 20:53:03,457 [Thread-1    ] [INFO ] [backend.views       ]  File added 95 20171230_152118JPG /home/pi/Pictures 20171230_152118.jpg /home/pi/Pictures/20171230_152118.jpg
+2018-06-24 20:53:03,463 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152143JPG exists
+2018-06-24 20:53:03,493 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152143JPG not found in DB. Add it.
+2018-06-24 20:53:03,546 [Thread-1    ] [INFO ] [backend.views       ]  File added 96 20171230_152143JPG /home/pi/Pictures 20171230_152143.jpg /home/pi/Pictures/20171230_152143.jpg
+2018-06-24 20:53:03,553 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152131JPG exists
+2018-06-24 20:53:03,580 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152131JPG not found in DB. Add it.
+2018-06-24 20:53:03,633 [Thread-1    ] [INFO ] [backend.views       ]  File added 97 20171230_152131JPG /home/pi/Pictures 20171230_152131.jpg /home/pi/Pictures/20171230_152131.jpg
+2018-06-24 20:53:03,640 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152116JPG exists
+2018-06-24 20:53:03,668 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152116JPG not found in DB. Add it.
+2018-06-24 20:53:03,736 [Thread-1    ] [INFO ] [backend.views       ]  File added 98 20171230_152116JPG /home/pi/Pictures 20171230_152116.jpg /home/pi/Pictures/20171230_152116.jpg
+2018-06-24 20:53:03,743 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152146JPG exists
+2018-06-24 20:53:03,771 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152146JPG not found in DB. Add it.
+2018-06-24 20:53:03,825 [Thread-1    ] [INFO ] [backend.views       ]  File added 99 20171230_152146JPG /home/pi/Pictures 20171230_152146.jpg /home/pi/Pictures/20171230_152146.jpg
+2018-06-24 20:53:03,831 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152129JPG exists
+2018-06-24 20:53:03,861 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152129JPG not found in DB. Add it.
+2018-06-24 20:53:03,914 [Thread-1    ] [INFO ] [backend.views       ]  File added 100 20171230_152129JPG /home/pi/Pictures 20171230_152129.jpg /home/pi/Pictures/20171230_152129.jpg
+2018-06-24 20:53:03,920 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152142JPG exists
+2018-06-24 20:53:03,949 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152142JPG not found in DB. Add it.
+2018-06-24 20:53:04,002 [Thread-1    ] [INFO ] [backend.views       ]  File added 101 20171230_152142JPG /home/pi/Pictures 20171230_152142.jpg /home/pi/Pictures/20171230_152142.jpg
+2018-06-24 20:53:04,008 [Thread-1    ] [INFO ] [backend.views       ]  Check if 20171230_152211JPG exists
+2018-06-24 20:53:04,038 [Thread-1    ] [INFO ] [backend.views       ]  20171230_152211JPG not found in DB. Add it.
+2018-06-24 20:53:04,092 [Thread-1    ] [INFO ] [backend.views       ]  File added 102 20171230_152211JPG /home/pi/Pictures 20171230_152211.jpg /home/pi/Pictures/20171230_152211.jpg
+2018-06-24 20:53:04,099 [Thread-1    ] [INFO ] [backend.views       ]  Check if IMG_2010JPG exists
+2018-06-24 20:53:04,127 [Thread-1    ] [INFO ] [backend.views       ]  IMG_2010JPG not found in DB. Add it.
+2018-06-24 20:53:04,178 [Thread-1    ] [INFO ] [backend.views       ]  File added 103 IMG_2010JPG /home/pi/Pictures IMG_2010.JPG /home/pi/Pictures/IMG_2010.JPG
+2018-06-24 20:53:04,191 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN222JPG exists
+2018-06-24 20:53:04,219 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN222JPG not found in DB. Add it.
+2018-06-24 20:53:04,289 [Thread-1    ] [INFO ] [backend.views       ]  File added 104 1998_10_XX_SACRAMENTOSCAN222JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan222.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan222.jpg
+2018-06-24 20:53:04,297 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN228JPG exists
+2018-06-24 20:53:04,324 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN228JPG not found in DB. Add it.
+2018-06-24 20:53:04,377 [Thread-1    ] [INFO ] [backend.views       ]  File added 105 1998_10_XX_SACRAMENTOSCAN228JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan228.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan228.jpg
+2018-06-24 20:53:04,384 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN219JPG exists
+2018-06-24 20:53:04,412 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN219JPG not found in DB. Add it.
+2018-06-24 20:53:04,465 [Thread-1    ] [INFO ] [backend.views       ]  File added 106 1998_10_XX_SACRAMENTOSCAN219JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan219.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan219.jpg
+2018-06-24 20:53:04,471 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN223JPG exists
+2018-06-24 20:53:04,500 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN223JPG not found in DB. Add it.
+2018-06-24 20:53:04,552 [Thread-1    ] [INFO ] [backend.views       ]  File added 107 1998_10_XX_SACRAMENTOSCAN223JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan223.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan223.jpg
+2018-06-24 20:53:04,559 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN218JPG exists
+2018-06-24 20:53:04,589 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN218JPG not found in DB. Add it.
+2018-06-24 20:53:04,643 [Thread-1    ] [INFO ] [backend.views       ]  File added 108 1998_10_XX_SACRAMENTOSCAN218JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan218.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan218.jpg
+2018-06-24 20:53:04,650 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN225JPG exists
+2018-06-24 20:53:04,679 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN225JPG not found in DB. Add it.
+2018-06-24 20:53:04,733 [Thread-1    ] [INFO ] [backend.views       ]  File added 109 1998_10_XX_SACRAMENTOSCAN225JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan225.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan225.jpg
+2018-06-24 20:53:04,740 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN227JPG exists
+2018-06-24 20:53:04,768 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN227JPG not found in DB. Add it.
+2018-06-24 20:53:04,847 [Thread-1    ] [INFO ] [backend.views       ]  File added 110 1998_10_XX_SACRAMENTOSCAN227JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan227.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan227.jpg
+2018-06-24 20:53:04,854 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN226JPG exists
+2018-06-24 20:53:04,882 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN226JPG not found in DB. Add it.
+2018-06-24 20:53:04,936 [Thread-1    ] [INFO ] [backend.views       ]  File added 111 1998_10_XX_SACRAMENTOSCAN226JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan226.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan226.jpg
+2018-06-24 20:53:04,943 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN221JPG exists
+2018-06-24 20:53:04,974 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN221JPG not found in DB. Add it.
+2018-06-24 20:53:05,026 [Thread-1    ] [INFO ] [backend.views       ]  File added 112 1998_10_XX_SACRAMENTOSCAN221JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan221.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan221.jpg
+2018-06-24 20:53:05,033 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN224JPG exists
+2018-06-24 20:53:05,064 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN224JPG not found in DB. Add it.
+2018-06-24 20:53:05,117 [Thread-1    ] [INFO ] [backend.views       ]  File added 113 1998_10_XX_SACRAMENTOSCAN224JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan224.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan224.jpg
+2018-06-24 20:53:05,123 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_XX_SACRAMENTOSCAN220JPG exists
+2018-06-24 20:53:05,153 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_XX_SACRAMENTOSCAN220JPG not found in DB. Add it.
+2018-06-24 20:53:05,199 [Thread-1    ] [INFO ] [backend.views       ]  File added 114 1998_10_XX_SACRAMENTOSCAN220JPG /home/pi/Pictures/1998_10_XX_Sacramento Scan220.jpg /home/pi/Pictures/1998_10_XX_Sacramento/Scan220.jpg
+2018-06-24 20:53:05,210 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC79562JPG exists
+2018-06-24 20:53:05,238 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC79562JPG not found in DB. Add it.
+2018-06-24 20:53:05,285 [Thread-1    ] [INFO ] [backend.views       ]  File added 115 2000_05_28_HOMEPIC79562JPG /home/pi/Pictures/2000_05_28_Home pic79562.jpg /home/pi/Pictures/2000_05_28_Home/pic79562.jpg
+2018-06-24 20:53:05,293 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC42215JPG exists
+2018-06-24 20:53:05,322 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC42215JPG not found in DB. Add it.
+2018-06-24 20:53:05,366 [Thread-1    ] [INFO ] [backend.views       ]  File added 116 2000_05_28_HOMEPIC42215JPG /home/pi/Pictures/2000_05_28_Home pic42215.jpg /home/pi/Pictures/2000_05_28_Home/pic42215.jpg
+2018-06-24 20:53:05,373 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC70967JPG exists
+2018-06-24 20:53:05,402 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC70967JPG not found in DB. Add it.
+2018-06-24 20:53:05,448 [Thread-1    ] [INFO ] [backend.views       ]  File added 117 2000_05_28_HOMEPIC70967JPG /home/pi/Pictures/2000_05_28_Home pic70967.jpg /home/pi/Pictures/2000_05_28_Home/pic70967.jpg
+2018-06-24 20:53:05,455 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC14792JPG exists
+2018-06-24 20:53:05,484 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC14792JPG not found in DB. Add it.
+2018-06-24 20:53:05,593 [Thread-1    ] [INFO ] [backend.views       ]  File added 118 2000_05_28_HOMEPIC14792JPG /home/pi/Pictures/2000_05_28_Home pic14792.jpg /home/pi/Pictures/2000_05_28_Home/pic14792.jpg
+2018-06-24 20:53:05,604 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC20485JPG exists
+2018-06-24 20:53:05,662 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC20485JPG not found in DB. Add it.
+2018-06-24 20:53:05,722 [Thread-1    ] [INFO ] [backend.views       ]  File added 119 2000_05_28_HOMEPIC20485JPG /home/pi/Pictures/2000_05_28_Home pic20485.jpg /home/pi/Pictures/2000_05_28_Home/pic20485.jpg
+2018-06-24 20:53:05,728 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC25679JPG exists
+2018-06-24 20:53:05,759 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC25679JPG not found in DB. Add it.
+2018-06-24 20:53:05,804 [Thread-1    ] [INFO ] [backend.views       ]  File added 120 2000_05_28_HOMEPIC25679JPG /home/pi/Pictures/2000_05_28_Home pic25679.jpg /home/pi/Pictures/2000_05_28_Home/pic25679.jpg
+2018-06-24 20:53:05,811 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC28837JPG exists
+2018-06-24 20:53:05,838 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC28837JPG not found in DB. Add it.
+2018-06-24 20:53:05,884 [Thread-1    ] [INFO ] [backend.views       ]  File added 121 2000_05_28_HOMEPIC28837JPG /home/pi/Pictures/2000_05_28_Home pic28837.jpg /home/pi/Pictures/2000_05_28_Home/pic28837.jpg
+2018-06-24 20:53:05,891 [Thread-1    ] [INFO ] [backend.views       ]  Check if 2000_05_28_HOMEPIC19622JPG exists
+2018-06-24 20:53:05,919 [Thread-1    ] [INFO ] [backend.views       ]  2000_05_28_HOMEPIC19622JPG not found in DB. Add it.
+2018-06-24 20:53:05,965 [Thread-1    ] [INFO ] [backend.views       ]  File added 122 2000_05_28_HOMEPIC19622JPG /home/pi/Pictures/2000_05_28_Home pic19622.jpg /home/pi/Pictures/2000_05_28_Home/pic19622.jpg
+2018-06-24 20:53:05,984 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEHUUMMM1JPG exists
+2018-06-24 20:53:06,015 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEHUUMMM1JPG not found in DB. Add it.
+2018-06-24 20:53:06,354 [Thread-1    ] [INFO ] [backend.views       ]  File added 123 1998_11_31_HOMEHUUMMM1JPG /home/pi/Pictures/1998_11_31_Home huummm1.jpg /home/pi/Pictures/1998_11_31_Home/huummm1.jpg
+2018-06-24 20:53:06,360 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMECRISLEO01JPG exists
+2018-06-24 20:53:06,389 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMECRISLEO01JPG not found in DB. Add it.
+2018-06-24 20:53:06,805 [Thread-1    ] [INFO ] [backend.views       ]  File added 124 1998_11_31_HOMECRISLEO01JPG /home/pi/Pictures/1998_11_31_Home crisleo01.jpg /home/pi/Pictures/1998_11_31_Home/crisleo01.jpg
+2018-06-24 20:53:06,811 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEHUUMMM3JPG exists
+2018-06-24 20:53:06,840 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEHUUMMM3JPG not found in DB. Add it.
+2018-06-24 20:53:07,386 [Thread-1    ] [INFO ] [backend.views       ]  File added 125 1998_11_31_HOMEHUUMMM3JPG /home/pi/Pictures/1998_11_31_Home huummm3.jpg /home/pi/Pictures/1998_11_31_Home/huummm3.jpg
+2018-06-24 20:53:07,393 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEGE02JPG exists
+2018-06-24 20:53:07,427 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEGE02JPG not found in DB. Add it.
+2018-06-24 20:53:07,528 [Thread-1    ] [INFO ] [backend.views       ]  File added 126 1998_11_31_HOMEGE02JPG /home/pi/Pictures/1998_11_31_Home ge02.jpg /home/pi/Pictures/1998_11_31_Home/ge02.jpg
+2018-06-24 20:53:07,535 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMECRISLEO02JPG exists
+2018-06-24 20:53:07,564 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMECRISLEO02JPG not found in DB. Add it.
+2018-06-24 20:53:07,618 [Thread-1    ] [INFO ] [backend.views       ]  File added 127 1998_11_31_HOMECRISLEO02JPG /home/pi/Pictures/1998_11_31_Home crisleo02.jpg /home/pi/Pictures/1998_11_31_Home/crisleo02.jpg
+2018-06-24 20:53:07,625 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEBONITAOJPG exists
+2018-06-24 20:53:07,652 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEBONITAOJPG not found in DB. Add it.
+2018-06-24 20:53:07,705 [Thread-1    ] [INFO ] [backend.views       ]  File added 128 1998_11_31_HOMEBONITAOJPG /home/pi/Pictures/1998_11_31_Home bonitao.jpg /home/pi/Pictures/1998_11_31_Home/bonitao.jpg
+2018-06-24 20:53:07,712 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEHUUMM2JPG exists
+2018-06-24 20:53:07,741 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEHUUMM2JPG not found in DB. Add it.
+2018-06-24 20:53:07,796 [Thread-1    ] [INFO ] [backend.views       ]  File added 129 1998_11_31_HOMEHUUMM2JPG /home/pi/Pictures/1998_11_31_Home huumm2.jpg /home/pi/Pictures/1998_11_31_Home/huumm2.jpg
+2018-06-24 20:53:07,803 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMECRIS02JPG exists
+2018-06-24 20:53:07,833 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMECRIS02JPG not found in DB. Add it.
+2018-06-24 20:53:07,886 [Thread-1    ] [INFO ] [backend.views       ]  File added 130 1998_11_31_HOMECRIS02JPG /home/pi/Pictures/1998_11_31_Home cris02.jpg /home/pi/Pictures/1998_11_31_Home/cris02.jpg
+2018-06-24 20:53:07,892 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMENEVE004JPG exists
+2018-06-24 20:53:07,923 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMENEVE004JPG not found in DB. Add it.
+2018-06-24 20:53:07,976 [Thread-1    ] [INFO ] [backend.views       ]  File added 131 1998_11_31_HOMENEVE004JPG /home/pi/Pictures/1998_11_31_Home neve004.jpg /home/pi/Pictures/1998_11_31_Home/neve004.jpg
+2018-06-24 20:53:07,983 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEPIC94314JPG exists
+2018-06-24 20:53:08,012 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEPIC94314JPG not found in DB. Add it.
+2018-06-24 20:53:08,065 [Thread-1    ] [INFO ] [backend.views       ]  File added 132 1998_11_31_HOMEPIC94314JPG /home/pi/Pictures/1998_11_31_Home pic94314.jpg /home/pi/Pictures/1998_11_31_Home/pic94314.jpg
+2018-06-24 20:53:08,071 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEPIC68229JPG exists
+2018-06-24 20:53:08,100 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEPIC68229JPG not found in DB. Add it.
+2018-06-24 20:53:08,154 [Thread-1    ] [INFO ] [backend.views       ]  File added 133 1998_11_31_HOMEPIC68229JPG /home/pi/Pictures/1998_11_31_Home pic68229.jpg /home/pi/Pictures/1998_11_31_Home/pic68229.jpg
+2018-06-24 20:53:08,161 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMETRICKORTREAT01JPG exists
+2018-06-24 20:53:08,189 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMETRICKORTREAT01JPG not found in DB. Add it.
+2018-06-24 20:53:08,241 [Thread-1    ] [INFO ] [backend.views       ]  File added 134 1998_11_31_HOMETRICKORTREAT01JPG /home/pi/Pictures/1998_11_31_Home trickortreat01.jpg /home/pi/Pictures/1998_11_31_Home/trickortreat01.jpg
+2018-06-24 20:53:08,248 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEPLAZADONWTONW02JPG exists
+2018-06-24 20:53:08,277 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEPLAZADONWTONW02JPG not found in DB. Add it.
+2018-06-24 20:53:08,331 [Thread-1    ] [INFO ] [backend.views       ]  File added 135 1998_11_31_HOMEPLAZADONWTONW02JPG /home/pi/Pictures/1998_11_31_Home plazadonwtonw02.jpg /home/pi/Pictures/1998_11_31_Home/plazadonwtonw02.jpg
+2018-06-24 20:53:08,338 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEGE01JPG exists
+2018-06-24 20:53:08,367 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEGE01JPG not found in DB. Add it.
+2018-06-24 20:53:08,419 [Thread-1    ] [INFO ] [backend.views       ]  File added 136 1998_11_31_HOMEGE01JPG /home/pi/Pictures/1998_11_31_Home ge01.jpg /home/pi/Pictures/1998_11_31_Home/ge01.jpg
+2018-06-24 20:53:08,426 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMETHANKSGIVING01JPG exists
+2018-06-24 20:53:08,454 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMETHANKSGIVING01JPG not found in DB. Add it.
+2018-06-24 20:53:08,523 [Thread-1    ] [INFO ] [backend.views       ]  File added 137 1998_11_31_HOMETHANKSGIVING01JPG /home/pi/Pictures/1998_11_31_Home thanksgiving01.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving01.jpg
+2018-06-24 20:53:08,529 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEPLAZADOWNTONW01JPG exists
+2018-06-24 20:53:08,558 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEPLAZADOWNTONW01JPG not found in DB. Add it.
+2018-06-24 20:53:08,631 [Thread-1    ] [INFO ] [backend.views       ]  File added 138 1998_11_31_HOMEPLAZADOWNTONW01JPG /home/pi/Pictures/1998_11_31_Home plazadowntonw01.jpg /home/pi/Pictures/1998_11_31_Home/plazadowntonw01.jpg
+2018-06-24 20:53:08,642 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMETHANKSGIVING02JPG exists
+2018-06-24 20:53:08,698 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMETHANKSGIVING02JPG not found in DB. Add it.
+2018-06-24 20:53:08,774 [Thread-1    ] [INFO ] [backend.views       ]  File added 139 1998_11_31_HOMETHANKSGIVING02JPG /home/pi/Pictures/1998_11_31_Home thanksgiving02.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving02.jpg
+2018-06-24 20:53:08,782 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMETHANKSGIVING04JPG exists
+2018-06-24 20:53:08,810 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMETHANKSGIVING04JPG not found in DB. Add it.
+2018-06-24 20:53:08,864 [Thread-1    ] [INFO ] [backend.views       ]  File added 140 1998_11_31_HOMETHANKSGIVING04JPG /home/pi/Pictures/1998_11_31_Home thanksgiving04.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving04.jpg
+2018-06-24 20:53:08,871 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMETRICKORTREAT03JPG exists
+2018-06-24 20:53:08,899 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMETRICKORTREAT03JPG not found in DB. Add it.
+2018-06-24 20:53:08,977 [Thread-1    ] [INFO ] [backend.views       ]  File added 141 1998_11_31_HOMETRICKORTREAT03JPG /home/pi/Pictures/1998_11_31_Home trickortreat03.jpg /home/pi/Pictures/1998_11_31_Home/trickortreat03.jpg
+2018-06-24 20:53:08,984 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEBONECO_DE_NEVEJPG exists
+2018-06-24 20:53:09,013 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEBONECO_DE_NEVEJPG not found in DB. Add it.
+2018-06-24 20:53:09,065 [Thread-1    ] [INFO ] [backend.views       ]  File added 142 1998_11_31_HOMEBONECO_DE_NEVEJPG /home/pi/Pictures/1998_11_31_Home boneco_de_neve.jpg /home/pi/Pictures/1998_11_31_Home/boneco_de_neve.jpg
+2018-06-24 20:53:09,072 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMETHANKSGIVING03JPG exists
+2018-06-24 20:53:09,102 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMETHANKSGIVING03JPG not found in DB. Add it.
+2018-06-24 20:53:09,174 [Thread-1    ] [INFO ] [backend.views       ]  File added 143 1998_11_31_HOMETHANKSGIVING03JPG /home/pi/Pictures/1998_11_31_Home thanksgiving03.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving03.jpg
+2018-06-24 20:53:09,181 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEGE03JPG exists
+2018-06-24 20:53:09,210 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEGE03JPG not found in DB. Add it.
+2018-06-24 20:53:09,262 [Thread-1    ] [INFO ] [backend.views       ]  File added 144 1998_11_31_HOMEGE03JPG /home/pi/Pictures/1998_11_31_Home ge03.jpg /home/pi/Pictures/1998_11_31_Home/ge03.jpg
+2018-06-24 20:53:09,269 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMEBANANADEPIJAMAJPG exists
+2018-06-24 20:53:09,298 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMEBANANADEPIJAMAJPG not found in DB. Add it.
+2018-06-24 20:53:09,352 [Thread-1    ] [INFO ] [backend.views       ]  File added 145 1998_11_31_HOMEBANANADEPIJAMAJPG /home/pi/Pictures/1998_11_31_Home bananadepijama.jpg /home/pi/Pictures/1998_11_31_Home/bananadepijama.jpg
+2018-06-24 20:53:09,359 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMENEVE006JPG exists
+2018-06-24 20:53:09,388 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMENEVE006JPG not found in DB. Add it.
+2018-06-24 20:53:09,441 [Thread-1    ] [INFO ] [backend.views       ]  File added 146 1998_11_31_HOMENEVE006JPG /home/pi/Pictures/1998_11_31_Home neve006.jpg /home/pi/Pictures/1998_11_31_Home/neve006.jpg
+2018-06-24 20:53:09,448 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMETHANKSGIVING05JPG exists
+2018-06-24 20:53:09,478 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMETHANKSGIVING05JPG not found in DB. Add it.
+2018-06-24 20:53:09,532 [Thread-1    ] [INFO ] [backend.views       ]  File added 147 1998_11_31_HOMETHANKSGIVING05JPG /home/pi/Pictures/1998_11_31_Home thanksgiving05.jpg /home/pi/Pictures/1998_11_31_Home/thanksgiving05.jpg
+2018-06-24 20:53:09,538 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_11_31_HOMENEVE005JPG exists
+2018-06-24 20:53:09,569 [Thread-1    ] [INFO ] [backend.views       ]  1998_11_31_HOMENEVE005JPG not found in DB. Add it.
+2018-06-24 20:53:09,622 [Thread-1    ] [INFO ] [backend.views       ]  File added 148 1998_11_31_HOMENEVE005JPG /home/pi/Pictures/1998_11_31_Home neve005.jpg /home/pi/Pictures/1998_11_31_Home/neve005.jpg
+2018-06-24 20:53:09,635 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN217JPG exists
+2018-06-24 20:53:09,663 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN217JPG not found in DB. Add it.
+2018-06-24 20:53:09,711 [Thread-1    ] [INFO ] [backend.views       ]  File added 149 1998_05_XX_PASSEIOBICICLETAEDSSCAN217JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan217.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan217.jpg
+2018-06-24 20:53:09,718 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN211JPG exists
+2018-06-24 20:53:09,748 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN211JPG not found in DB. Add it.
+2018-06-24 20:53:09,793 [Thread-1    ] [INFO ] [backend.views       ]  File added 150 1998_05_XX_PASSEIOBICICLETAEDSSCAN211JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan211.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan211.jpg
+2018-06-24 20:53:09,800 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN216JPG exists
+2018-06-24 20:53:09,831 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN216JPG not found in DB. Add it.
+2018-06-24 20:53:10,101 [Thread-1    ] [INFO ] [backend.views       ]  File added 151 1998_05_XX_PASSEIOBICICLETAEDSSCAN216JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan216.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan216.jpg
+2018-06-24 20:53:10,107 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN215JPG exists
+2018-06-24 20:53:10,137 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN215JPG not found in DB. Add it.
+2018-06-24 20:53:10,193 [Thread-1    ] [INFO ] [backend.views       ]  File added 152 1998_05_XX_PASSEIOBICICLETAEDSSCAN215JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan215.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan215.jpg
+2018-06-24 20:53:10,200 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN213JPG exists
+2018-06-24 20:53:10,230 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN213JPG not found in DB. Add it.
+2018-06-24 20:53:10,319 [Thread-1    ] [INFO ] [backend.views       ]  File added 153 1998_05_XX_PASSEIOBICICLETAEDSSCAN213JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan213.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan213.jpg
+2018-06-24 20:53:10,327 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN212JPG exists
+2018-06-24 20:53:10,360 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN212JPG not found in DB. Add it.
+2018-06-24 20:53:10,419 [Thread-1    ] [INFO ] [backend.views       ]  File added 154 1998_05_XX_PASSEIOBICICLETAEDSSCAN212JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan212.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan212.jpg
+2018-06-24 20:53:10,426 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN210JPG exists
+2018-06-24 20:53:10,455 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN210JPG not found in DB. Add it.
+2018-06-24 20:53:10,509 [Thread-1    ] [INFO ] [backend.views       ]  File added 155 1998_05_XX_PASSEIOBICICLETAEDSSCAN210JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan210.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan210.jpg
+2018-06-24 20:53:10,516 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN209JPG exists
+2018-06-24 20:53:10,545 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN209JPG not found in DB. Add it.
+2018-06-24 20:53:10,597 [Thread-1    ] [INFO ] [backend.views       ]  File added 156 1998_05_XX_PASSEIOBICICLETAEDSSCAN209JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan209.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan209.jpg
+2018-06-24 20:53:10,604 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN214JPG exists
+2018-06-24 20:53:10,633 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN214JPG not found in DB. Add it.
+2018-06-24 20:53:10,706 [Thread-1    ] [INFO ] [backend.views       ]  File added 157 1998_05_XX_PASSEIOBICICLETAEDSSCAN214JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan214.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan214.jpg
+2018-06-24 20:53:10,712 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_05_XX_PASSEIOBICICLETAEDSSCAN208JPG exists
+2018-06-24 20:53:10,741 [Thread-1    ] [INFO ] [backend.views       ]  1998_05_XX_PASSEIOBICICLETAEDSSCAN208JPG not found in DB. Add it.
+2018-06-24 20:53:10,795 [Thread-1    ] [INFO ] [backend.views       ]  File added 158 1998_05_XX_PASSEIOBICICLETAEDSSCAN208JPG /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS Scan208.jpg /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan208.jpg
+2018-06-24 20:53:10,810 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRPAVAO01JPG exists
+2018-06-24 20:53:10,840 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRPAVAO01JPG not found in DB. Add it.
+2018-06-24 20:53:10,894 [Thread-1    ] [INFO ] [backend.views       ]  File added 159 1998_10_18_RENASCENCEFAIRPAVAO01JPG /home/pi/Pictures/1998_10_18_RenascenceFair pavao01.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/pavao01.jpg
+2018-06-24 20:53:10,901 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRLANCHJPG exists
+2018-06-24 20:53:10,931 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRLANCHJPG not found in DB. Add it.
+2018-06-24 20:53:10,984 [Thread-1    ] [INFO ] [backend.views       ]  File added 160 1998_10_18_RENASCENCEFAIRLANCHJPG /home/pi/Pictures/1998_10_18_RenascenceFair lanch.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/lanch.jpg
+2018-06-24 20:53:10,991 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRPAVAO02JPG exists
+2018-06-24 20:53:11,022 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRPAVAO02JPG not found in DB. Add it.
+2018-06-24 20:53:11,075 [Thread-1    ] [INFO ] [backend.views       ]  File added 161 1998_10_18_RENASCENCEFAIRPAVAO02JPG /home/pi/Pictures/1998_10_18_RenascenceFair pavao02.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/pavao02.jpg
+2018-06-24 20:53:11,082 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRFOLESJPG exists
+2018-06-24 20:53:11,110 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRFOLESJPG not found in DB. Add it.
+2018-06-24 20:53:11,166 [Thread-1    ] [INFO ] [backend.views       ]  File added 162 1998_10_18_RENASCENCEFAIRFOLESJPG /home/pi/Pictures/1998_10_18_RenascenceFair foles.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/foles.jpg
+2018-06-24 20:53:11,173 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRBICHAJPG exists
+2018-06-24 20:53:11,202 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRBICHAJPG not found in DB. Add it.
+2018-06-24 20:53:11,285 [Thread-1    ] [INFO ] [backend.views       ]  File added 163 1998_10_18_RENASCENCEFAIRBICHAJPG /home/pi/Pictures/1998_10_18_RenascenceFair bicha.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/bicha.jpg
+2018-06-24 20:53:11,292 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRCHURRASCOJPG exists
+2018-06-24 20:53:11,319 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRCHURRASCOJPG not found in DB. Add it.
+2018-06-24 20:53:11,372 [Thread-1    ] [INFO ] [backend.views       ]  File added 164 1998_10_18_RENASCENCEFAIRCHURRASCOJPG /home/pi/Pictures/1998_10_18_RenascenceFair churrasco.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/churrasco.jpg
+2018-06-24 20:53:11,379 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRCABRASJPG exists
+2018-06-24 20:53:11,407 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRCABRASJPG not found in DB. Add it.
+2018-06-24 20:53:11,459 [Thread-1    ] [INFO ] [backend.views       ]  File added 165 1998_10_18_RENASCENCEFAIRCABRASJPG /home/pi/Pictures/1998_10_18_RenascenceFair cabras.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg
+2018-06-24 20:53:11,465 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRMENDIGOSJPG exists
+2018-06-24 20:53:11,492 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRMENDIGOSJPG not found in DB. Add it.
+2018-06-24 20:53:11,556 [Thread-1    ] [INFO ] [backend.views       ]  File added 166 1998_10_18_RENASCENCEFAIRMENDIGOSJPG /home/pi/Pictures/1998_10_18_RenascenceFair mendigos.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/mendigos.jpg
+2018-06-24 20:53:11,568 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRCITARAJPG exists
+2018-06-24 20:53:11,626 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRCITARAJPG not found in DB. Add it.
+2018-06-24 20:53:11,706 [Thread-1    ] [INFO ] [backend.views       ]  File added 167 1998_10_18_RENASCENCEFAIRCITARAJPG /home/pi/Pictures/1998_10_18_RenascenceFair citara.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/citara.jpg
+2018-06-24 20:53:11,716 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRMOTOQUEIRAJPG exists
+2018-06-24 20:53:11,763 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRMOTOQUEIRAJPG not found in DB. Add it.
+2018-06-24 20:53:11,820 [Thread-1    ] [INFO ] [backend.views       ]  File added 168 1998_10_18_RENASCENCEFAIRMOTOQUEIRAJPG /home/pi/Pictures/1998_10_18_RenascenceFair motoqueira.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg
+2018-06-24 20:53:11,827 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRMASCARAJPG exists
+2018-06-24 20:53:11,857 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRMASCARAJPG not found in DB. Add it.
+2018-06-24 20:53:11,910 [Thread-1    ] [INFO ] [backend.views       ]  File added 169 1998_10_18_RENASCENCEFAIRMASCARAJPG /home/pi/Pictures/1998_10_18_RenascenceFair mascara.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/mascara.jpg
+2018-06-24 20:53:11,918 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRTORNEIOJPG exists
+2018-06-24 20:53:11,947 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRTORNEIOJPG not found in DB. Add it.
+2018-06-24 20:53:12,002 [Thread-1    ] [INFO ] [backend.views       ]  File added 170 1998_10_18_RENASCENCEFAIRTORNEIOJPG /home/pi/Pictures/1998_10_18_RenascenceFair torneio.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/torneio.jpg
+2018-06-24 20:53:12,009 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRDESFILEJPG exists
+2018-06-24 20:53:12,039 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRDESFILEJPG not found in DB. Add it.
+2018-06-24 20:53:12,392 [Thread-1    ] [INFO ] [backend.views       ]  File added 171 1998_10_18_RENASCENCEFAIRDESFILEJPG /home/pi/Pictures/1998_10_18_RenascenceFair desfile.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/desfile.jpg
+2018-06-24 20:53:12,399 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRLEOCRISJPG exists
+2018-06-24 20:53:12,428 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRLEOCRISJPG not found in DB. Add it.
+2018-06-24 20:53:12,480 [Thread-1    ] [INFO ] [backend.views       ]  File added 172 1998_10_18_RENASCENCEFAIRLEOCRISJPG /home/pi/Pictures/1998_10_18_RenascenceFair leocris.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg
+2018-06-24 20:53:12,487 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRLOUCAJPG exists
+2018-06-24 20:53:12,516 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRLOUCAJPG not found in DB. Add it.
+2018-06-24 20:53:12,570 [Thread-1    ] [INFO ] [backend.views       ]  File added 173 1998_10_18_RENASCENCEFAIRLOUCAJPG /home/pi/Pictures/1998_10_18_RenascenceFair louca.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/louca.jpg
+2018-06-24 20:53:12,577 [Thread-1    ] [INFO ] [backend.views       ]  Check if 1998_10_18_RENASCENCEFAIRFIGURAJPG exists
+2018-06-24 20:53:12,609 [Thread-1    ] [INFO ] [backend.views       ]  1998_10_18_RENASCENCEFAIRFIGURAJPG not found in DB. Add it.
+2018-06-24 20:53:12,664 [Thread-1    ] [INFO ] [backend.views       ]  File added 174 1998_10_18_RENASCENCEFAIRFIGURAJPG /home/pi/Pictures/1998_10_18_RenascenceFair figura.jpg /home/pi/Pictures/1998_10_18_RenascenceFair/figura.jpg
+2018-06-24 20:53:12,675 [Thread-1    ] [INFO ] [backend.views       ]  Check if 0000_00_00_GEORGINAMAMA_002JPG exists
+2018-06-24 20:53:12,705 [Thread-1    ] [INFO ] [backend.views       ]  0000_00_00_GEORGINAMAMA_002JPG not found in DB. Add it.
+2018-06-24 20:53:12,754 [Thread-1    ] [INFO ] [backend.views       ]  File added 175 0000_00_00_GEORGINAMAMA_002JPG /home/pi/Pictures/0000_00_00_Georgina mama_002.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_002.jpg
+2018-06-24 20:53:12,761 [Thread-1    ] [INFO ] [backend.views       ]  Check if 0000_00_00_GEORGINAMAMA_004JPG exists
+2018-06-24 20:53:12,792 [Thread-1    ] [INFO ] [backend.views       ]  0000_00_00_GEORGINAMAMA_004JPG not found in DB. Add it.
+2018-06-24 20:53:12,853 [Thread-1    ] [INFO ] [backend.views       ]  File added 176 0000_00_00_GEORGINAMAMA_004JPG /home/pi/Pictures/0000_00_00_Georgina mama_004.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_004.jpg
+2018-06-24 20:53:12,860 [Thread-1    ] [INFO ] [backend.views       ]  Check if 0000_00_00_GEORGINAMAMA_003JPG exists
+2018-06-24 20:53:12,890 [Thread-1    ] [INFO ] [backend.views       ]  0000_00_00_GEORGINAMAMA_003JPG not found in DB. Add it.
+2018-06-24 20:53:12,994 [Thread-1    ] [INFO ] [backend.views       ]  File added 177 0000_00_00_GEORGINAMAMA_003JPG /home/pi/Pictures/0000_00_00_Georgina mama_003.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_003.jpg
+2018-06-24 20:53:13,000 [Thread-1    ] [INFO ] [backend.views       ]  Check if 0000_00_00_GEORGINAMAMA_005JPG exists
+2018-06-24 20:53:13,031 [Thread-1    ] [INFO ] [backend.views       ]  0000_00_00_GEORGINAMAMA_005JPG not found in DB. Add it.
+2018-06-24 20:53:13,083 [Thread-1    ] [INFO ] [backend.views       ]  File added 178 0000_00_00_GEORGINAMAMA_005JPG /home/pi/Pictures/0000_00_00_Georgina mama_005.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_005.jpg
+2018-06-24 20:53:13,090 [Thread-1    ] [INFO ] [backend.views       ]  Check if 0000_00_00_GEORGINAMAMA_006JPG exists
+2018-06-24 20:53:13,121 [Thread-1    ] [INFO ] [backend.views       ]  0000_00_00_GEORGINAMAMA_006JPG not found in DB. Add it.
+2018-06-24 20:53:13,173 [Thread-1    ] [INFO ] [backend.views       ]  File added 179 0000_00_00_GEORGINAMAMA_006JPG /home/pi/Pictures/0000_00_00_Georgina mama_006.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_006.jpg
+2018-06-24 20:53:13,180 [Thread-1    ] [INFO ] [backend.views       ]  Check if 0000_00_00_GEORGINAMAMA_001JPG exists
+2018-06-24 20:53:13,210 [Thread-1    ] [INFO ] [backend.views       ]  0000_00_00_GEORGINAMAMA_001JPG not found in DB. Add it.
+2018-06-24 20:53:13,262 [Thread-1    ] [INFO ] [backend.views       ]  File added 180 0000_00_00_GEORGINAMAMA_001JPG /home/pi/Pictures/0000_00_00_Georgina mama_001.jpg /home/pi/Pictures/0000_00_00_Georgina/mama_001.jpg
+2018-06-24 20:53:13,435 [Thread-1    ] [INFO ] [django.server       ]  "GET /build HTTP/1.1" 200 5370
+2018-06-24 20:53:27,130 [Thread-3    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 12957
+2018-06-24 20:59:54,928 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1100 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e9eeb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 21:00:38,057 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ea2eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 21:01:04,650 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route
+2018-06-24 21:01:04,789 [Thread-1    ] [INFO ] [backend.views       ]  Found 90 in the DB, randomicaly select 10
+2018-06-24 21:20:18,476 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route
+2018-06-24 21:20:18,682 [Thread-1    ] [INFO ] [backend.views       ]  Found 90 in the DB, randomicaly select 10
+2018-06-24 21:20:18,732 [Thread-1    ] [INFO ] [backend.views       ]  First id in DB is 91
+2018-06-24 21:20:18,748 [Thread-1    ] [ERROR] [django.request      ]  Internal Server Error: /select
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/mypicframeapi/backend/views.py", line 179, in select
+    rnd=random.randint(first,numpics)
+  File "/usr/lib/python2.7/random.py", line 242, in randint
+    return self.randrange(a, b+1)
+  File "/usr/lib/python2.7/random.py", line 218, in randrange
+    raise ValueError, "empty range for randrange() (%d,%d, %d)" % (istart, istop, width)
+ValueError: empty range for randrange() (91,91, 0)
+2018-06-24 21:20:22,561 [Thread-1    ] [ERROR] [django.server       ]  "GET /select HTTP/1.1" 500 79619
+2018-06-24 21:23:20,381 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1326 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e62eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:20:02,877 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route
+2018-06-24 22:20:03,116 [Thread-1    ] [ERROR] [django.request      ]  Internal Server Error: /select
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/mypicframeapi/backend/views.py", line 173, in select
+    numpics=len(f)
+TypeError: object of type 'Pictures' has no len()
+2018-06-24 22:20:06,523 [Thread-1    ] [ERROR] [django.server       ]  "GET /select HTTP/1.1" 500 71986
+2018-06-24 22:23:21,803 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1301 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e8deb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:24:43,063 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route
+2018-06-24 22:24:43,223 [Thread-1    ] [INFO ] [backend.views       ]  Found 90 pictures in the DB, randomicaly select 10
+2018-06-24 22:24:44,119 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan212.jpg.
+2018-06-24 22:24:44,125 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan212.jpg > /home/pi/mypicframeapi/tmp/Scan212.jpg
+2018-06-24 22:24:48,599 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg.
+2018-06-24 22:24:48,606 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg > /home/pi/mypicframeapi/tmp/leocris.jpg
+2018-06-24 22:24:48,974 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan225.jpg.
+2018-06-24 22:24:48,981 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan225.jpg > /home/pi/mypicframeapi/tmp/Scan225.jpg
+2018-06-24 22:24:53,514 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/mendigos.jpg.
+2018-06-24 22:24:53,521 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/mendigos.jpg > /home/pi/mypicframeapi/tmp/mendigos.jpg
+2018-06-24 22:24:53,995 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/trickortreat03.jpg.
+2018-06-24 22:24:54,002 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/trickortreat03.jpg > /home/pi/mypicframeapi/tmp/trickortreat03.jpg
+2018-06-24 22:24:54,340 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/pic94314.jpg.
+2018-06-24 22:24:54,347 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/pic94314.jpg > /home/pi/mypicframeapi/tmp/pic94314.jpg
+2018-06-24 22:24:54,638 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan216.jpg.
+2018-06-24 22:24:54,645 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan216.jpg > /home/pi/mypicframeapi/tmp/Scan216.jpg
+2018-06-24 22:24:58,650 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg.
+2018-06-24 22:24:58,657 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg > /home/pi/mypicframeapi/tmp/cabras.jpg
+2018-06-24 22:24:59,001 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/0000_00_00_Georgina/mama_005.jpg.
+2018-06-24 22:24:59,009 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/0000_00_00_Georgina/mama_005.jpg > /home/pi/mypicframeapi/tmp/mama_005.jpg
+2018-06-24 22:24:59,275 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan221.jpg.
+2018-06-24 22:24:59,282 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan221.jpg > /home/pi/mypicframeapi/tmp/Scan221.jpg
+2018-06-24 22:25:03,823 [Thread-1    ] [INFO ] [django.server       ]  "GET /select HTTP/1.1" 200 1657
+2018-06-24 22:25:40,831 [Thread-3    ] [INFO ] [backend.views       ]  Calling select route
+2018-06-24 22:25:40,845 [Thread-3    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:25:40,957 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /select
+2018-06-24 22:25:40,974 [Thread-3    ] [WARNI] [django.server       ]  "GET /select HTTP/1.1" 404 1751
+2018-06-24 22:32:06,153 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1219 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e5deb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:33:25,752 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ef4eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:40:53,448 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f3eeb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:41:23,013 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f2deb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:42:17,144 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e89eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:48:25,813 [Thread-1    ] [INFO ] [django.server       ]  "GET /select HTTP/1.1" 301 0
+2018-06-24 22:48:25,977 [Thread-3    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:48:26,003 [Thread-3    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:48:26,193 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:48:26,235 [Thread-3    ] [WARNI] [django.server       ]  "GET /select/ HTTP/1.1" 404 1753
+2018-06-24 22:48:40,802 [Thread-4    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:48:40,820 [Thread-4    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:48:40,924 [Thread-4    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:48:40,937 [Thread-4    ] [WARNI] [django.server       ]  "GET /select/?force HTTP/1.1" 404 1759
+2018-06-24 22:49:14,175 [Thread-5    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:49:14,187 [Thread-5    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:49:14,271 [Thread-5    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:49:14,284 [Thread-5    ] [WARNI] [django.server       ]  "GET /select/?force/ HTTP/1.1" 404 1760
+2018-06-24 22:49:33,978 [Thread-6    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:49:33,990 [Thread-6    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:49:34,091 [Thread-6    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:49:34,103 [Thread-6    ] [WARNI] [django.server       ]  "GET /select/ HTTP/1.1" 404 1753
+2018-06-24 22:51:32,760 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1182 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5e6deb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 22:54:14,019 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:54:14,048 [Thread-1    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:54:14,188 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:54:14,206 [Thread-1    ] [WARNI] [django.server       ]  "GET /select/ HTTP/1.1" 404 1753
+2018-06-24 22:54:38,395 [Thread-3    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:54:38,406 [Thread-3    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:54:38,496 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:54:38,508 [Thread-3    ] [WARNI] [django.server       ]  "GET /select/?force=1 HTTP/1.1" 404 1761
+2018-06-24 22:57:12,998 [Thread-4    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:57:13,009 [Thread-4    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:57:13,095 [Thread-4    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:57:13,107 [Thread-4    ] [WARNI] [django.server       ]  "GET /select/?force=1/ HTTP/1.1" 404 1762
+2018-06-24 22:57:33,836 [Thread-5    ] [WARNI] [django.request      ]  Not Found: /select/force=1/
+2018-06-24 22:57:33,848 [Thread-5    ] [WARNI] [django.server       ]  "GET /select/force=1/ HTTP/1.1" 404 2688
+2018-06-24 22:57:55,909 [Thread-6    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 22:57:55,920 [Thread-6    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 22:57:56,010 [Thread-6    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 22:57:56,022 [Thread-6    ] [WARNI] [django.server       ]  "GET /select/?force=1/ HTTP/1.1" 404 1762
+2018-06-24 23:00:53,477 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1259 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5eb7eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 23:01:18,256 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1093 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ed9eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 23:01:51,382 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:01:51,410 [Thread-1    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 23:01:51,637 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 23:01:51,659 [Thread-1    ] [WARNI] [django.server       ]  "GET /select/ HTTP/1.1" 404 1753
+2018-06-24 23:02:04,690 [Thread-3    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:02:04,711 [Thread-3    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 23:02:04,805 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 23:02:04,818 [Thread-3    ] [WARNI] [django.server       ]  "GET /select/ HTTP/1.1" 404 1753
+2018-06-24 23:02:20,125 [Thread-4    ] [INFO ] [django.server       ]  "GET /select/force HTTP/1.1" 301 0
+2018-06-24 23:02:20,272 [Thread-5    ] [ERROR] [django.request      ]  Internal Server Error: /select/force/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: select() got an unexpected keyword argument 'force'
+2018-06-24 23:02:23,818 [Thread-5    ] [ERROR] [django.server       ]  "GET /select/force/ HTTP/1.1" 500 66658
+2018-06-24 23:02:57,164 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1281 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f3feb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 23:03:29,804 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:03:29,814 [Thread-1    ] [INFO ] [backend.views       ]  Function called to force, remove tmp dir.
+2018-06-24 23:03:29,824 [Thread-1    ] [ERROR] [django.request      ]  Internal Server Error: /select/force/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/mypicframeapi/backend/views.py", line 155, in select
+    os.rmdir(tmpdir)
+OSError: [Errno 39] Directory not empty: '/home/pi/mypicframeapi/tmp'
+2018-06-24 23:03:33,338 [Thread-1    ] [ERROR] [django.server       ]  "GET /select/force/ HTTP/1.1" 500 70082
+2018-06-24 23:03:59,299 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1339 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f1feb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-24 23:08:35,533 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:08:35,543 [Thread-1    ] [INFO ] [backend.views       ]  Function called to force, remove tmp dir.
+2018-06-24 23:08:35,571 [Thread-1    ] [INFO ] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp not found, create it
+2018-06-24 23:08:35,746 [Thread-1    ] [INFO ] [backend.views       ]  Found 90 pictures in the DB, randomicaly select 10
+2018-06-24 23:08:36,878 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/0000_00_00_Georgina/mama_006.jpg.
+2018-06-24 23:08:36,885 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/0000_00_00_Georgina/mama_006.jpg > /home/pi/mypicframeapi/tmp/mama_006.jpg
+2018-06-24 23:08:37,402 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/20171230_152146.jpg.
+2018-06-24 23:08:37,416 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/20171230_152146.jpg > /home/pi/mypicframeapi/tmp/20171230_152146.jpg
+2018-06-24 23:08:45,447 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/plazadowntonw01.jpg.
+2018-06-24 23:08:45,454 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/plazadowntonw01.jpg > /home/pi/mypicframeapi/tmp/plazadowntonw01.jpg
+2018-06-24 23:08:46,342 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/2000_05_28_Home/pic28837.jpg.
+2018-06-24 23:08:46,349 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/2000_05_28_Home/pic28837.jpg > /home/pi/mypicframeapi/tmp/pic28837.jpg
+2018-06-24 23:08:47,330 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg.
+2018-06-24 23:08:47,338 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg > /home/pi/mypicframeapi/tmp/leocris.jpg
+2018-06-24 23:08:47,720 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/pic68229.jpg.
+2018-06-24 23:08:47,727 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/pic68229.jpg > /home/pi/mypicframeapi/tmp/pic68229.jpg
+2018-06-24 23:08:48,013 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/neve004.jpg.
+2018-06-24 23:08:48,021 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/neve004.jpg > /home/pi/mypicframeapi/tmp/neve004.jpg
+2018-06-24 23:08:48,358 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/huumm2.jpg.
+2018-06-24 23:08:48,365 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/huumm2.jpg > /home/pi/mypicframeapi/tmp/huumm2.jpg
+2018-06-24 23:08:48,709 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/plazadonwtonw02.jpg.
+2018-06-24 23:08:48,716 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/plazadonwtonw02.jpg > /home/pi/mypicframeapi/tmp/plazadonwtonw02.jpg
+2018-06-24 23:08:49,007 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/trickortreat01.jpg.
+2018-06-24 23:08:49,014 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/trickortreat01.jpg > /home/pi/mypicframeapi/tmp/trickortreat01.jpg
+2018-06-24 23:08:49,345 [Thread-1    ] [INFO ] [django.server       ]  "GET /select/force/ HTTP/1.1" 200 1494
+2018-06-24 23:08:58,610 [Thread-3    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:08:58,640 [Thread-3    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-24 23:08:58,862 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /select/
+2018-06-24 23:08:58,883 [Thread-3    ] [WARNI] [django.server       ]  "GET /select/ HTTP/1.1" 404 1753
+2018-06-24 23:09:08,197 [Thread-4    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:09:08,203 [Thread-4    ] [INFO ] [backend.views       ]  Function called to force, remove tmp dir.
+2018-06-24 23:09:08,230 [Thread-4    ] [INFO ] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp not found, create it
+2018-06-24 23:09:08,392 [Thread-4    ] [INFO ] [backend.views       ]  Found 90 pictures in the DB, randomicaly select 10
+2018-06-24 23:09:08,671 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/foles.jpg.
+2018-06-24 23:09:08,678 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/foles.jpg > /home/pi/mypicframeapi/tmp/foles.jpg
+2018-06-24 23:09:09,281 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg.
+2018-06-24 23:09:09,288 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg > /home/pi/mypicframeapi/tmp/motoqueira.jpg
+2018-06-24 23:09:10,106 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/thanksgiving01.jpg.
+2018-06-24 23:09:10,113 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/thanksgiving01.jpg > /home/pi/mypicframeapi/tmp/thanksgiving01.jpg
+2018-06-24 23:09:10,340 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/2000_05_28_Home/pic14792.jpg.
+2018-06-24 23:09:10,347 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/2000_05_28_Home/pic14792.jpg > /home/pi/mypicframeapi/tmp/pic14792.jpg
+2018-06-24 23:09:10,809 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan227.jpg.
+2018-06-24 23:09:10,819 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan227.jpg > /home/pi/mypicframeapi/tmp/Scan227.jpg
+2018-06-24 23:09:15,058 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/bananadepijama.jpg.
+2018-06-24 23:09:15,065 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/bananadepijama.jpg > /home/pi/mypicframeapi/tmp/bananadepijama.jpg
+2018-06-24 23:09:15,396 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/IMG_2010.JPG.
+2018-06-24 23:09:15,403 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/IMG_2010.JPG > /home/pi/mypicframeapi/tmp/IMG_2010.JPG
+2018-06-24 23:09:31,058 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/0000_00_00_Georgina/mama_002.jpg.
+2018-06-24 23:09:31,066 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/0000_00_00_Georgina/mama_002.jpg > /home/pi/mypicframeapi/tmp/mama_002.jpg
+2018-06-24 23:09:31,434 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/torneio.jpg.
+2018-06-24 23:09:31,441 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/torneio.jpg > /home/pi/mypicframeapi/tmp/torneio.jpg
+2018-06-24 23:09:31,774 [Thread-4    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg.
+2018-06-24 23:09:31,781 [Thread-4    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/leocris.jpg > /home/pi/mypicframeapi/tmp/leocris.jpg
+2018-06-24 23:09:32,195 [Thread-4    ] [INFO ] [django.server       ]  "GET /select/force/ HTTP/1.1" 200 1559
+2018-06-24 23:09:53,443 [Thread-5    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/ HTTP/1.1" 200 28481
+2018-06-24 23:09:53,814 [Thread-6    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 23:10:10,256 [Thread-7    ] [INFO ] [django.server       ]  "GET /admin/backend/pictures/172/change/ HTTP/1.1" 200 7406
+2018-06-24 23:10:10,582 [Thread-8    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-24 23:10:28,267 [Thread-9    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:10:28,274 [Thread-9    ] [INFO ] [backend.views       ]  Function called to force, remove tmp dir.
+2018-06-24 23:10:28,309 [Thread-9    ] [INFO ] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp not found, create it
+2018-06-24 23:10:28,486 [Thread-9    ] [INFO ] [backend.views       ]  Found 90 pictures in the DB, randomicaly select 10
+2018-06-24 23:10:28,823 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/churrasco.jpg.
+2018-06-24 23:10:28,829 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/churrasco.jpg > /home/pi/mypicframeapi/tmp/churrasco.jpg
+2018-06-24 23:10:29,168 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/crisleo02.jpg.
+2018-06-24 23:10:29,175 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/crisleo02.jpg > /home/pi/mypicframeapi/tmp/crisleo02.jpg
+2018-06-24 23:10:29,469 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg.
+2018-06-24 23:10:29,477 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg > /home/pi/mypicframeapi/tmp/cabras.jpg
+2018-06-24 23:10:29,944 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/pic94314.jpg.
+2018-06-24 23:10:29,951 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/pic94314.jpg > /home/pi/mypicframeapi/tmp/pic94314.jpg
+2018-06-24 23:10:30,232 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg.
+2018-06-24 23:10:30,239 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg > /home/pi/mypicframeapi/tmp/motoqueira.jpg
+2018-06-24 23:10:30,582 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/louca.jpg.
+2018-06-24 23:10:30,589 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/louca.jpg > /home/pi/mypicframeapi/tmp/louca.jpg
+2018-06-24 23:10:30,958 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/huummm1.jpg.
+2018-06-24 23:10:30,965 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/huummm1.jpg > /home/pi/mypicframeapi/tmp/huummm1.jpg
+2018-06-24 23:10:31,303 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan228.jpg.
+2018-06-24 23:10:31,310 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan228.jpg > /home/pi/mypicframeapi/tmp/Scan228.jpg
+2018-06-24 23:10:35,592 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/thanksgiving01.jpg.
+2018-06-24 23:10:35,605 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/thanksgiving01.jpg > /home/pi/mypicframeapi/tmp/thanksgiving01.jpg
+2018-06-24 23:10:35,894 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan222.jpg.
+2018-06-24 23:10:35,901 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan222.jpg > /home/pi/mypicframeapi/tmp/Scan222.jpg
+2018-06-24 23:10:40,181 [Thread-9    ] [INFO ] [django.server       ]  "GET /select/force/ HTTP/1.1" 200 1594
+2018-06-24 23:11:33,441 [Thread-1    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-24 23:11:33,447 [Thread-1    ] [INFO ] [backend.views       ]  Function called to force, remove tmp dir.
+2018-06-24 23:11:33,469 [Thread-1    ] [INFO ] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp not found, create it
+2018-06-24 23:11:33,659 [Thread-1    ] [INFO ] [backend.views       ]  Found 90 pictures in the DB, randomicaly select 10
+2018-06-24 23:11:34,590 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan217.jpg.
+2018-06-24 23:11:34,596 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan217.jpg > /home/pi/mypicframeapi/tmp/Scan217.jpg
+2018-06-24 23:11:38,715 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/0000_00_00_Georgina/mama_001.jpg.
+2018-06-24 23:11:38,722 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/0000_00_00_Georgina/mama_001.jpg > /home/pi/mypicframeapi/tmp/mama_001.jpg
+2018-06-24 23:11:38,993 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/2000_05_28_Home/pic42215.jpg.
+2018-06-24 23:11:39,000 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/2000_05_28_Home/pic42215.jpg > /home/pi/mypicframeapi/tmp/pic42215.jpg
+2018-06-24 23:11:39,512 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/louca.jpg.
+2018-06-24 23:11:39,519 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/louca.jpg > /home/pi/mypicframeapi/tmp/louca.jpg
+2018-06-24 23:11:39,864 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg.
+2018-06-24 23:11:39,871 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/motoqueira.jpg > /home/pi/mypicframeapi/tmp/motoqueira.jpg
+2018-06-24 23:11:40,213 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/boneco_de_neve.jpg.
+2018-06-24 23:11:40,220 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/boneco_de_neve.jpg > /home/pi/mypicframeapi/tmp/boneco_de_neve.jpg
+2018-06-24 23:11:40,562 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan223.jpg.
+2018-06-24 23:11:40,569 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan223.jpg > /home/pi/mypicframeapi/tmp/Scan223.jpg
+2018-06-24 23:11:44,816 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/20171230_152216.jpg.
+2018-06-24 23:11:44,823 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/20171230_152216.jpg > /home/pi/mypicframeapi/tmp/20171230_152216.jpg
+2018-06-24 23:11:51,093 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/bananadepijama.jpg.
+2018-06-24 23:11:51,100 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/bananadepijama.jpg > /home/pi/mypicframeapi/tmp/bananadepijama.jpg
+2018-06-24 23:11:51,476 [Thread-1    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/figura.jpg.
+2018-06-24 23:11:51,486 [Thread-1    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/figura.jpg > /home/pi/mypicframeapi/tmp/figura.jpg
+2018-06-24 23:11:51,877 [Thread-1    ] [INFO ] [django.server       ]  "GET /select/force/ HTTP/1.1" 200 1590
+2018-06-25 20:27:45,638 [Thread-3    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-25 20:27:45,642 [Thread-3    ] [INFO ] [backend.views       ]  Function called to force, remove tmp dir.
+2018-06-25 20:27:45,661 [Thread-3    ] [INFO ] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp not found, create it
+2018-06-25 20:27:45,840 [Thread-3    ] [INFO ] [backend.views       ]  Found 90 pictures in the DB, randomicaly select 10
+2018-06-25 20:27:46,189 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/20171230_152116.jpg.
+2018-06-25 20:27:46,194 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/20171230_152116.jpg > /home/pi/mypicframeapi/tmp/20171230_152116.jpg
+2018-06-25 20:27:51,590 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/2000_05_28_Home/pic20485.jpg.
+2018-06-25 20:27:51,595 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/2000_05_28_Home/pic20485.jpg > /home/pi/mypicframeapi/tmp/pic20485.jpg
+2018-06-25 20:27:52,100 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/torneio.jpg.
+2018-06-25 20:27:52,105 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/torneio.jpg > /home/pi/mypicframeapi/tmp/torneio.jpg
+2018-06-25 20:27:52,454 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/huummm1.jpg.
+2018-06-25 20:27:52,459 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/huummm1.jpg > /home/pi/mypicframeapi/tmp/huummm1.jpg
+2018-06-25 20:27:52,982 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/huummm3.jpg.
+2018-06-25 20:27:52,988 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/huummm3.jpg > /home/pi/mypicframeapi/tmp/huummm3.jpg
+2018-06-25 20:27:53,311 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/2000_05_28_Home/pic19622.jpg.
+2018-06-25 20:27:53,316 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/2000_05_28_Home/pic19622.jpg > /home/pi/mypicframeapi/tmp/pic19622.jpg
+2018-06-25 20:27:53,676 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/0000_00_00_Georgina/mama_001.jpg.
+2018-06-25 20:27:53,682 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/0000_00_00_Georgina/mama_001.jpg > /home/pi/mypicframeapi/tmp/mama_001.jpg
+2018-06-25 20:27:53,948 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/20171230_152129.jpg.
+2018-06-25 20:27:53,953 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/20171230_152129.jpg > /home/pi/mypicframeapi/tmp/20171230_152129.jpg
+2018-06-25 20:27:59,422 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/neve006.jpg.
+2018-06-25 20:27:59,428 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/neve006.jpg > /home/pi/mypicframeapi/tmp/neve006.jpg
+2018-06-25 20:27:59,749 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/crisleo01.jpg.
+2018-06-25 20:27:59,755 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/crisleo01.jpg > /home/pi/mypicframeapi/tmp/crisleo01.jpg
+2018-06-25 20:28:00,020 [Thread-3    ] [INFO ] [django.server       ]  "GET /select/force/ HTTP/1.1" 200 1411

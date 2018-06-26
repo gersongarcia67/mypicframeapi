@@ -1,0 +1,10 @@
+<h1>{{ h1 }}</h1>
+{% if piclist %}
+	<h2>{{ h2 }}</h2>
+	{% for pic in piclist %}
+		{{ pic }}</br>
+	{% endfor %}
+
+{% else %}
+	<h2>{{ h2_else }}</h2>
+{% endif %}
