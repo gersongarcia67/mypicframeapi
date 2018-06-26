@@ -123,7 +123,7 @@ def build(request):
     return render(request,'backend/index.html',context)
 
 
-def index(request):
+def list(request):
 
     piclist=Pictures.objects.all()
 

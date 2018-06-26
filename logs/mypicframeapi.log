@@ -1165,3 +1165,174 @@ OSError: [Errno 39] Directory not empty: '/home/pi/mypicframeapi/tmp'
 2018-06-25 20:27:59,749 [Thread-3    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/crisleo01.jpg.
 2018-06-25 20:27:59,755 [Thread-3    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/crisleo01.jpg > /home/pi/mypicframeapi/tmp/crisleo01.jpg
 2018-06-25 20:28:00,020 [Thread-3    ] [INFO ] [django.server       ]  "GET /select/force/ HTTP/1.1" 200 1411
+2018-06-25 21:13:33,461 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1201 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f40eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-25 21:14:43,616 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /api-auth
+2018-06-25 21:14:43,633 [Thread-1    ] [WARNI] [django.server       ]  "GET /api-auth HTTP/1.1" 404 2695
+2018-06-25 21:21:51,319 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1390 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ea4eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-25 21:29:16,961 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /api-auth
+2018-06-25 21:29:16,979 [Thread-1    ] [WARNI] [django.server       ]  "GET /api-auth HTTP/1.1" 404 2695
+2018-06-25 21:33:41,068 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1201 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f00eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-25 21:35:56,403 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /api-auth
+2018-06-25 21:35:56,425 [Thread-1    ] [WARNI] [django.server       ]  "GET /api-auth HTTP/1.1" 404 2695
+2018-06-25 21:36:32,561 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1363 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5eabeb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-25 21:36:59,904 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /api-auth
+2018-06-25 21:36:59,922 [Thread-1    ] [WARNI] [django.server       ]  "GET /api-auth HTTP/1.1" 404 2943
+2018-06-25 21:37:17,007 [Thread-3    ] [INFO ] [django.server       ]  "GET /admin HTTP/1.1" 301 0
+2018-06-25 21:37:19,392 [Thread-4    ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 200 6016
+2018-06-25 21:37:20,957 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2018-06-25 21:37:35,089 [Thread-6    ] [INFO ] [django.server       ]  "GET /admin/auth/user/ HTTP/1.1" 200 6467
+2018-06-25 21:37:35,282 [Thread-8    ] [INFO ] [django.server       ]  "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2018-06-25 21:37:35,526 [Thread-7    ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-25 21:37:35,910 [Thread-9    ] [INFO ] [django.server       ]  "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2018-06-25 21:37:41,049 [Thread-10   ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 200 6016
+2018-06-25 21:37:46,886 [Thread-11   ] [WARNI] [django.request      ]  Not Found: /api-auth/
+2018-06-25 21:37:46,902 [Thread-11   ] [WARNI] [django.server       ]  "GET /api-auth/ HTTP/1.1" 404 2946
+2018-06-25 21:38:06,832 [Thread-12   ] [WARNI] [django.request      ]  Not Found: /api-auth/login
+2018-06-25 21:38:06,845 [Thread-12   ] [WARNI] [django.server       ]  "GET /api-auth/login HTTP/1.1" 404 2961
+2018-06-25 21:38:27,409 [Thread-13   ] [WARNI] [django.request      ]  Not Found: /login
+2018-06-25 21:38:27,421 [Thread-13   ] [WARNI] [django.server       ]  "GET /login HTTP/1.1" 404 2685
+2018-06-25 21:38:47,778 [Thread-14   ] [WARNI] [django.request      ]  Not Found: /api-auth login
+2018-06-25 21:38:47,792 [Thread-14   ] [WARNI] [django.server       ]  "GET /api-auth%20login HTTP/1.1" 404 2963
+2018-06-25 21:39:23,553 [Thread-15   ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 12957
+2018-06-25 21:39:48,493 [Thread-16   ] [WARNI] [django.request      ]  Not Found: /beckend/list
+2018-06-25 21:39:48,505 [Thread-16   ] [WARNI] [django.server       ]  "GET /beckend/list HTTP/1.1" 404 2706
+2018-06-25 21:40:41,957 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1203 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ee9eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-25 21:43:54,833 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /beckend/list
+2018-06-25 21:43:54,850 [Thread-1    ] [WARNI] [django.server       ]  "GET /beckend/list HTTP/1.1" 404 2195
+2018-06-25 21:45:00,592 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /
+2018-06-25 21:45:00,604 [Thread-3    ] [WARNI] [django.server       ]  "GET / HTTP/1.1" 404 2141
+2018-06-25 21:45:17,442 [Thread-4    ] [INFO ] [django.server       ]  "GET /backend HTTP/1.1" 301 0
+2018-06-25 21:45:18,095 [Thread-5    ] [INFO ] [django.server       ]  "GET /backend/ HTTP/1.1" 200 12957
+2018-06-25 21:45:29,665 [Thread-6    ] [INFO ] [django.server       ]  "GET /backend/list HTTP/1.1" 200 12957
+2018-06-25 21:45:56,917 [Thread-7    ] [INFO ] [django.server       ]  "GET /api-auth/login HTTP/1.1" 301 0
+2018-06-25 21:45:57,936 [Thread-8    ] [INFO ] [django.server       ]  "GET /api-auth/login/ HTTP/1.1" 200 2702
+2018-06-25 21:45:59,057 [Thread-10   ] [INFO ] [django.server       ]  "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2018-06-25 21:45:59,103 [Thread-11   ] [INFO ] [django.server       ]  "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+2018-06-25 21:45:59,125 [Thread-12   ] [INFO ] [django.server       ]  "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+2018-06-25 21:45:59,463 [Thread-9    ] [INFO ] [django.server       ]  "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+2018-06-25 21:45:59,636 [Thread-13   ] [INFO ] [django.server       ]  "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2018-06-25 21:46:15,237 [Thread-14   ] [INFO ] [django.server       ]  "POST /api-auth/login/ HTTP/1.1" 302 0
+2018-06-25 21:46:15,635 [Thread-15   ] [WARNI] [django.request      ]  Not Found: /accounts/profile/
+2018-06-25 21:46:15,647 [Thread-15   ] [WARNI] [django.server       ]  "GET /accounts/profile/ HTTP/1.1" 404 2210
+2018-06-25 21:47:00,958 [Thread-16   ] [INFO ] [django.server       ]  "GET /api-auth/login/ HTTP/1.1" 200 2702
+2018-06-25 21:47:07,613 [Thread-17   ] [INFO ] [django.server       ]  "GET /api-auth/logout HTTP/1.1" 301 0
+2018-06-25 21:47:09,748 [Thread-18   ] [INFO ] [django.server       ]  "GET /api-auth/logout/ HTTP/1.1" 200 1015
+2018-06-25 21:51:11,416 [Thread-19   ] [WARNI] [django.request      ]  Not Found: /users/
+2018-06-25 21:51:11,437 [Thread-19   ] [WARNI] [django.server       ]  "GET /users/ HTTP/1.1" 404 2177
+2018-06-25 21:52:45,983 [Thread-20   ] [WARNI] [django.request      ]  Not Found: /users
+2018-06-25 21:52:45,996 [Thread-20   ] [WARNI] [django.server       ]  "GET /users HTTP/1.1" 404 2174
+2018-06-25 21:54:11,083 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/mypicframeapi/urls.py' of this watch <Watch wd=1406 path=/home/pi/mypicframeapi/mypicframeapi/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f1feb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/mypicframeapi'.
+2018-06-25 21:54:42,096 [Thread-1    ] [INFO ] [django.server       ]  "GET /users/ HTTP/1.1" 200 162
+2018-06-25 21:55:06,179 [Thread-3    ] [INFO ] [django.server       ]  "GET /users/ HTTP/1.1" 200 162
+2018-06-25 21:58:43,422 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1111 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ea3eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-25 22:13:45,675 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /listapi
+2018-06-25 22:13:45,706 [Thread-1    ] [WARNI] [django.server       ]  "GET /listapi HTTP/1.1" 404 3347
+2018-06-25 22:14:11,857 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /listapi
+2018-06-25 22:14:11,871 [Thread-3    ] [WARNI] [django.server       ]  "GET /listapi HTTP/1.1" 404 3347
+2018-06-25 22:15:26,742 [Thread-4    ] [INFO ] [django.server       ]  "GET /backend/list HTTP/1.1" 200 12957
+2018-06-25 22:15:41,309 [Thread-5    ] [INFO ] [django.server       ]  "GET /backend/listapi HTTP/1.1" 200 12957
+2018-06-25 22:16:05,525 [Thread-6    ] [INFO ] [django.server       ]  "GET /backend/listapi/ HTTP/1.1" 200 12957
+2018-06-25 22:17:40,946 [Thread-7    ] [INFO ] [django.server       ]  "GET /backend/select HTTP/1.1" 301 0
+2018-06-25 22:17:45,226 [Thread-8    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-25 22:17:45,236 [Thread-8    ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-25 22:17:45,323 [Thread-8    ] [WARNI] [django.request      ]  Not Found: /backend/select/
+2018-06-25 22:17:45,344 [Thread-8    ] [WARNI] [django.server       ]  "GET /backend/select/ HTTP/1.1" 404 1769
+2018-06-25 22:17:57,591 [Thread-9    ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-25 22:17:57,597 [Thread-9    ] [INFO ] [backend.views       ]  Function called to force, remove tmp dir.
+2018-06-25 22:17:57,625 [Thread-9    ] [INFO ] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp not found, create it
+2018-06-25 22:17:57,817 [Thread-9    ] [INFO ] [backend.views       ]  Found 90 pictures in the DB, randomicaly select 10
+2018-06-25 22:17:58,871 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/thanksgiving02.jpg.
+2018-06-25 22:17:58,878 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/thanksgiving02.jpg > /home/pi/mypicframeapi/tmp/thanksgiving02.jpg
+2018-06-25 22:17:59,136 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg.
+2018-06-25 22:17:59,143 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/cabras.jpg > /home/pi/mypicframeapi/tmp/cabras.jpg
+2018-06-25 22:17:59,507 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_18_RenascenceFair/mascara.jpg.
+2018-06-25 22:17:59,521 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_18_RenascenceFair/mascara.jpg > /home/pi/mypicframeapi/tmp/mascara.jpg
+2018-06-25 22:17:59,959 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan222.jpg.
+2018-06-25 22:17:59,966 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan222.jpg > /home/pi/mypicframeapi/tmp/Scan222.jpg
+2018-06-25 22:18:04,277 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_11_31_Home/huumm2.jpg.
+2018-06-25 22:18:04,283 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_11_31_Home/huumm2.jpg > /home/pi/mypicframeapi/tmp/huumm2.jpg
+2018-06-25 22:18:04,627 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan211.jpg.
+2018-06-25 22:18:04,634 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan211.jpg > /home/pi/mypicframeapi/tmp/Scan211.jpg
+2018-06-25 22:18:08,805 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/20171230_152116.jpg.
+2018-06-25 22:18:08,812 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/20171230_152116.jpg > /home/pi/mypicframeapi/tmp/20171230_152116.jpg
+2018-06-25 22:18:14,311 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_10_XX_Sacramento/Scan227.jpg.
+2018-06-25 22:18:14,317 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_10_XX_Sacramento/Scan227.jpg > /home/pi/mypicframeapi/tmp/Scan227.jpg
+2018-06-25 22:18:18,887 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/2000_05_28_Home/pic20485.jpg.
+2018-06-25 22:18:18,894 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/2000_05_28_Home/pic20485.jpg > /home/pi/mypicframeapi/tmp/pic20485.jpg
+2018-06-25 22:18:19,557 [Thread-9    ] [INFO ] [backend.views       ]  Run jpegtranRun to manipulate /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan208.jpg.
+2018-06-25 22:18:19,564 [Thread-9    ] [INFO ] [backend.views       ]  Running: /usr/bin/jpegtran -optimize -progressive /home/pi/Pictures/1998_05_XX_PasseioBicicletaEDS/Scan208.jpg > /home/pi/mypicframeapi/tmp/Scan208.jpg
+2018-06-25 22:18:23,696 [Thread-9    ] [INFO ] [django.server       ]  "GET /backend/select/force/ HTTP/1.1" 200 1581
+2018-06-25 22:21:02,613 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/views.py' of this watch <Watch wd=1367 path=/home/pi/mypicframeapi/backend/views.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5f20eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-25 22:26:22,363 [Thread-1    ] [WARNI] [django.request      ]  Not Found: /listapi
+2018-06-25 22:26:22,388 [Thread-1    ] [WARNI] [django.server       ]  "GET /listapi HTTP/1.1" 404 3347
+2018-06-25 22:26:38,484 [Thread-3    ] [WARNI] [django.request      ]  Not Found: /backend/listapi
+2018-06-25 22:26:38,510 [Thread-3    ] [WARNI] [django.server       ]  "GET /backend/listapi HTTP/1.1" 404 4076
+2018-06-25 22:27:09,766 [Thread-4    ] [INFO ] [django.server       ]  "GET /backend HTTP/1.1" 301 0
+2018-06-25 22:27:13,907 [Thread-5    ] [INFO ] [django.server       ]  "GET /backend/ HTTP/1.1" 200 12957
+2018-06-25 22:27:21,896 [Thread-6    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 51
+2018-06-25 22:29:58,718 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1412 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5ea2eb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-25 22:30:33,626 [Thread-1    ] [INFO ] [django.server       ]  "GET /backend HTTP/1.1" 301 0
+2018-06-25 22:30:41,140 [Thread-3    ] [INFO ] [django.server       ]  "GET /backend/ HTTP/1.1" 200 63
+2018-06-25 22:31:44,475 [Thread-4    ] [WARNI] [django.server       ]  "GET /backend/ HTTP/1.1" 403 46
+2018-06-25 22:32:15,381 [Thread-5    ] [WARNI] [django.server       ]  "GET /backend/ HTTP/1.1" 403 46
+2018-06-25 22:32:28,126 [Thread-6    ] [WARNI] [django.server       ]  "GET /backend/ HTTP/1.1" 403 46
+2018-06-25 22:32:58,323 [Thread-7    ] [WARNI] [django.server       ]  "GET /backend/ HTTP/1.1" 403 46
+2018-06-25 22:33:40,193 [Thread-8    ] [INFO ] [django.server       ]  "GET /admin/logout/ HTTP/1.1" 302 0
+2018-06-25 22:33:40,502 [Thread-9    ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 302 0
+2018-06-25 22:33:42,119 [Thread-10   ] [INFO ] [django.server       ]  "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1655
+2018-06-25 22:33:55,747 [Thread-11   ] [INFO ] [django.server       ]  "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2018-06-25 22:33:57,341 [Thread-12   ] [INFO ] [django.server       ]  "GET /admin/ HTTP/1.1" 200 6016
+2018-06-25 22:34:02,554 [Thread-13   ] [INFO ] [django.server       ]  "GET /admin/auth/user/ HTTP/1.1" 200 6467
+2018-06-25 22:34:02,876 [Thread-14   ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-25 22:34:08,548 [Thread-15   ] [INFO ] [django.server       ]  "GET /admin/auth/user/add/ HTTP/1.1" 200 5506
+2018-06-25 22:34:09,409 [Thread-16   ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-25 22:34:28,993 [Thread-17   ] [INFO ] [django.server       ]  "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2018-06-25 22:34:32,689 [Thread-18   ] [INFO ] [django.server       ]  "GET /admin/auth/user/2/change/ HTTP/1.1" 200 13769
+2018-06-25 22:34:33,286 [Thread-19   ] [INFO ] [django.server       ]  "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+2018-06-25 22:34:33,356 [Thread-23   ] [INFO ] [django.server       ]  "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+2018-06-25 22:34:33,687 [Thread-22   ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-25 22:34:33,776 [Thread-21   ] [INFO ] [django.server       ]  "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+2018-06-25 22:34:33,874 [Thread-20   ] [INFO ] [django.server       ]  "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+2018-06-25 22:34:35,029 [Thread-25   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2018-06-25 22:34:35,074 [Thread-24   ] [INFO ] [django.server       ]  "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2018-06-25 22:34:35,089 [Thread-26   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2018-06-25 22:34:35,133 [Thread-27   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2018-06-25 22:34:35,139 [Thread-28   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2018-06-25 22:35:04,713 [Thread-29   ] [INFO ] [django.server       ]  "POST /admin/auth/user/2/change/ HTTP/1.1" 200 13796
+2018-06-25 22:35:05,039 [Thread-30   ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-25 22:35:24,281 [Thread-31   ] [INFO ] [django.server       ]  "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+2018-06-25 22:35:26,631 [Thread-32   ] [INFO ] [django.server       ]  "GET /admin/auth/user/ HTTP/1.1" 200 7083
+2018-06-25 22:35:26,970 [Thread-33   ] [INFO ] [django.server       ]  "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+2018-06-25 22:35:27,137 [Thread-34   ] [INFO ] [django.server       ]  "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2018-06-25 22:35:49,952 [Thread-35   ] [WARNI] [django.server       ]  "GET /backend/ HTTP/1.1" 403 46
+2018-06-25 22:36:06,712 [Thread-36   ] [INFO ] [django.server       ]  "GET /backend/ HTTP/1.1" 200 63
+2018-06-25 22:36:39,385 [Thread-37   ] [INFO ] [django.server       ]  "GET /backend/list HTTP/1.1" 200 12957
+2018-06-25 22:36:47,780 [Thread-38   ] [INFO ] [django.server       ]  "GET /backend/select HTTP/1.1" 301 0
+2018-06-25 22:36:51,024 [Thread-39   ] [INFO ] [backend.views       ]  Calling select route.
+2018-06-25 22:36:51,035 [Thread-39   ] [ERROR] [backend.views       ]  Temp dir /home/pi/mypicframeapi/tmp is not empty.
+2018-06-25 22:36:51,132 [Thread-39   ] [WARNI] [django.request      ]  Not Found: /backend/select/
+2018-06-25 22:36:51,158 [Thread-39   ] [WARNI] [django.server       ]  "GET /backend/select/ HTTP/1.1" 404 1769
+2018-06-25 22:37:00,405 [Thread-40   ] [INFO ] [django.server       ]  "GET /backend/listapi HTTP/1.1" 301 0
+2018-06-25 22:37:05,133 [Thread-41   ] [INFO ] [django.server       ]  "GET /backend/listapi/ HTTP/1.1" 200 28757
+2018-06-25 22:37:39,691 [Thread-42   ] [INFO ] [django.server       ]  "GET /backend/listapi/ HTTP/1.1" 200 28757
+2018-06-25 22:40:17,480 [Thread-43   ] [INFO ] [django.server       ]  "GET /backend/listapi HTTP/1.1" 301 0
+2018-06-25 22:40:19,369 [Thread-44   ] [DEBUG] [MARKDOWN            ]  Successfuly imported extension module "markdown.extensions.toc".
+2018-06-25 22:40:19,380 [Thread-44   ] [DEBUG] [MARKDOWN            ]  Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2018-06-25 22:40:22,687 [Thread-44   ] [INFO ] [django.server       ]  "GET /backend/listapi/ HTTP/1.1" 200 49706
+2018-06-25 22:40:23,440 [Thread-45   ] [INFO ] [django.server       ]  "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+2018-06-25 22:40:23,463 [Thread-47   ] [INFO ] [django.server       ]  "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+2018-06-25 22:40:23,488 [Thread-46   ] [INFO ] [django.server       ]  "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+2018-06-25 22:40:23,543 [Thread-49   ] [INFO ] [django.server       ]  "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+2018-06-25 22:40:23,554 [Thread-50   ] [INFO ] [django.server       ]  "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2018-06-25 22:40:23,856 [Thread-48   ] [INFO ] [django.server       ]  "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+2018-06-25 22:41:13,770 [MainThread  ] [ERROR] [pyinotify           ]  The pathname '/home/pi/mypicframeapi/backend/urls.py' of this watch <Watch wd=1371 path=/home/pi/mypicframeapi/backend/urls.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0xb5edaeb0> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/home/pi/mypicframeapi/backend'.
+2018-06-25 22:41:43,442 [Thread-1    ] [DEBUG] [MARKDOWN            ]  Successfuly imported extension module "markdown.extensions.toc".
+2018-06-25 22:41:43,453 [Thread-1    ] [DEBUG] [MARKDOWN            ]  Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2018-06-25 22:41:47,428 [Thread-1    ] [INFO ] [django.server       ]  "GET /backend/listapi/ HTTP/1.1" 200 56770
+2018-06-25 22:42:19,948 [Thread-3    ] [INFO ] [django.server       ]  "GET /users HTTP/1.1" 301 0
+2018-06-25 22:42:20,658 [Thread-4    ] [DEBUG] [MARKDOWN            ]  Successfuly imported extension module "markdown.extensions.toc".
+2018-06-25 22:42:20,666 [Thread-4    ] [DEBUG] [MARKDOWN            ]  Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2018-06-25 22:42:21,764 [Thread-4    ] [INFO ] [django.server       ]  "GET /users/ HTTP/1.1" 200 10085
+2018-06-25 22:44:01,136 [Thread-5    ] [DEBUG] [MARKDOWN            ]  Successfuly imported extension module "markdown.extensions.toc".
+2018-06-25 22:44:01,142 [Thread-5    ] [DEBUG] [MARKDOWN            ]  Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2018-06-25 22:44:02,214 [Thread-5    ] [INFO ] [django.server       ]  "GET /users/ HTTP/1.1" 200 10085
